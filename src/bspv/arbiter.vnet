@@ -1,0 +1,106 @@
+//
+//	model    : place joint
+//	function : select & conflict arbiter module
+//	created  : Mon Jul 28 19:00:42 2003
+//
+
+module arbiter (
+	i_1__ri, i_1_ao, i_1_di,
+	i_2__ri, i_2_ao, i_2_di, 
+    	o_1__ro, o_1_ai, o_1_do, reset );
+input  i_1__ri, i_1_di, i_2__ri, i_2_di, o_1_ai, reset;
+output i_1_ao, i_2_ao, o_1__ro, o_1_do;
+
+    wire rab_2, ab_1, rab_1, n_13, n_14 ,a2_d,a1_d,req_out;
+
+    muller_c_r mc1 ( .a(rab_1), .b(o_1_ai), .q(i_1_ao), .reset(reset) );
+    muller_c_r mc2 ( .a(rab_2), .b(o_1_ai), .q(i_2_ao), .reset(reset) );
+
+    NAND22 S_10 ( .A(rab_1), .B(rab_2), .Y(req_out) );
+    NOR22 U11 ( .A(i_1_di), .B(rab_1), .Y(n_13) );
+    NOR22 U12 ( .A(i_2_di), .B(rab_2), .Y(n_14) );
+    NAND22 S_11 ( .A(n_13), .B(n_14), .Y(o_1_do) );
+
+    NOR21P U7 ( .A(ab2), .B(i_1__ri), .Y(ab1) );
+    NAND21 U8 ( .A(i_1__ri), .B(ab2), .Y(ab_1) );
+    NOR22P S_2 ( .A(i_2__ri), .B(ab_1), .Y(ab2) );
+
+    NOR21 U13 ( .A(a2_d), .B(ab1), .Y(rab_1) );
+    NOR21 U14 ( .A(a1_d), .B(ab2), .Y(rab_2) );
+
+	assign a1_d = i_1_ao;
+	assign a2_d = i_2_ao;
+	assign o_1__ro = req_out;
+
+//	assign #50 o_1__ro = req_out;
+/*
+	BUF1 ad1(.A(i_1_ao),.Y(a1_d));
+	BUF1 ad2(.A(i_2_ao),.Y(a2_d));
+	BUF1 adr(.A(req_out),.Y(o_1__ro));
+*/
+endmodule
+
+/*
+module arbiter ( i_1__r_i, i_1_a_o, i_1_d_i, i_2__r_i, i_2_a_o, i_2_d_i, 
+    o_1__r_o, o_1_a_i, o_1_d_o, reset );
+input  i_1__r_i, i_1_d_i, i_2__r_i, i_2_d_i, o_1_a_i, reset;
+output i_1_a_o, i_2_a_o, o_1__r_o, o_1_d_o;
+    wire a2_d, n_9, rab_2, ab_1, n_3, a1_d, rab_1, n_13, n54, n55, n56, n57, 
+        n58, \*cell*27/net41 , n59, \*cell*27/net44 , net22, n60;
+    BUF1 b2 ( .A(i_2_a_o), .Y(a2_d) );
+    muller_c_r mc1 ( .a(rab_1), .b(o_1_a_i), .q(i_1_a_o), .reset(reset) );
+    muller_c_r mc2 ( .a(rab_2), .b(o_1_a_i), .q(i_2_a_o), .reset(reset) );
+    BUF1 b1 ( .A(i_1_a_o), .Y(a1_d) );
+    BUF1 U7 ( .A(a2_d), .Y(n54) );
+    OAI21 U8 ( .A(n56), .B(n55), .C(n59), .Y(o_1_d_o) );
+    INV1 U9 ( .A(i_1_d_i), .Y(n55) );
+    INV1 U10 ( .A(n_13), .Y(n56) );
+    NOR22 U11 ( .A(i_2_d_i), .B(n60), .Y(n_13) );
+    INV1 U12 ( .A(ab_1), .Y(\*cell*27/net44 ) );
+    NOR2P U13 ( .A(a2_d), .B(ab_1), .Y(rab_1) );
+    INV1 U14 ( .A(n54), .Y(\*cell*27/net41 ) );
+    NAND2P U15 ( .A(n57), .B(i_1__r_i), .Y(ab_1) );
+    INV2 U16 ( .A(n58), .Y(n57) );
+    BUF1 U17 ( .A(n_3), .Y(n58) );
+    INV2 U18 ( .A(n59), .Y(net22) );
+    NAND2P U19 ( .A(\*cell*27/net41 ), .B(\*cell*27/net44 ), .Y(n59) );
+    BUF1 U20 ( .A(rab_2), .Y(n60) );
+    INV1 U21 ( .A(a1_d), .Y(n_9) );
+    NOR22P S_2 ( .A(i_2__r_i), .B(ab_1), .Y(n_3) );
+    NOR22P S_9 ( .A(n_3), .B(n_9), .Y(rab_2) );
+    NAND22 S_10 ( .A(net22), .B(n60), .Y(o_1__r_o) );
+endmodule
+*/
+
+/*
+module arbiter(
+	i_1__ri, i_1_ao, i_1_di,
+	i_2__ri, i_2_ao, i_2_di,
+	o_1__ro, o_1_ai, o_1_do,
+	reset
+	);
+
+input	i_1__ri, i_1_di;
+output	i_1_ao;
+input	i_2__ri, i_2_di;
+output	i_2_ao;
+input	o_1_ai;
+output	o_1__ro, o_1_do;
+input	reset;
+
+	wire ab_1,ab_2,rab_1,rab_2,a1_d,a2_d;
+	assign ab_1 = ~(i_1__ri & ab_2);
+	assign ab_2 = ~(i_2__ri & ab_1);
+	assign rab_1 = (~ab_1) & (~a2_d);
+	assign rab_2 = (~ab_2) & (~a1_d);
+	muller_c_r mc1(.a(rab_1),.b(o_1_ai), .q(i_1_ao),.reset(reset));
+	muller_c_r mc2(.a(rab_2),.b(o_1_ai), .q(i_2_ao),.reset(reset));
+//	assign #100 a1_d = i_1_ao;
+//	assign #100 a2_d = i_2_ao;
+	assign a1_d = i_1_ao;
+	assign a2_d = i_2_ao;
+
+	assign o_1__ro = rab_1 | rab_2;
+	assign o_1_do = (i_1_di & rab_1) | (i_2_di & rab_2);
+endmodule
+*/

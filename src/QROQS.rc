@@ -1,0 +1,1129 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\QROQS.rc2""  // Microsoft Visual C++ 以外のツールで編集されたリソース\r\n"
+    "#include ""l.jpn\\afxres.rc""          // 標準のコンポーネント\r\n"
+    "#include ""l.jpn\\afxprint.rc""        // 印刷/印刷プレビュー リソース\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\QROQS.ico"
+IDR_QROQSTYPE           ICON    DISCARDABLE     "res\\QROQSDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_OBJECT              BITMAP  DISCARDABLE     "res\\object.bmp"
+IDR_OBJECT_MINI         BITMAP  DISCARDABLE     "res\\object1.bmp"
+IDR_TOOLBAR_SUB         BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+END
+
+IDR_OBJECT_MINI TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_OBJ_PLACE
+    BUTTON      ID_OBJ_TRANSITION
+    BUTTON      ID_OBJ_UHZI
+    BUTTON      ID_OBJ_KEMMAKIX
+    BUTTON      ID_OBJ_BTOKEN
+    BUTTON      ID_OBJ_ARC
+    BUTTON      ID_COM_CHAIN
+    BUTTON      ID_OBJ_MODULE
+    SEPARATOR
+    BUTTON      ID_OBJ_HAND
+    BUTTON      ID_OBJ_DELETE
+    BUTTON      ID_COM_ZOOMUP
+    BUTTON      ID_COM_ZOOMDOWN
+    BUTTON      ID_MODULE_UP
+    BUTTON      ID_COM_HELP
+    SEPARATOR
+    BUTTON      ID_COM_COMPILE
+    BUTTON      ID_COM_STEP_UNDO
+    BUTTON      ID_COM_GO
+    BUTTON      ID_COM_BLAST
+    BUTTON      ID_COM_STEP
+    BUTTON      ID_COM_STOP
+    BUTTON      ID_COM_HALT
+    SEPARATOR
+    BUTTON      ID_COM_OPEN
+    BUTTON      ID_COM_BACKCONF
+    BUTTON      ID_COM_WRITE
+END
+
+IDR_TOOLBAR_SUB TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_BUTTON32821
+    BUTTON      ID_BUTTON32823
+    BUTTON      ID_BUTTON32824
+    BUTTON      ID_BUTTON32825
+    BUTTON      ID_BUTTON32846
+    BUTTON      ID_BUTTON32847
+    BUTTON      ID_MOD_FUNCTION
+    BUTTON      ID_BUTTON32849
+    BUTTON      ID_BUTTON32850
+    BUTTON      ID_BUTTON32851
+    BUTTON      ID_BUTTON32852
+    BUTTON      ID_BUTTON32853
+    BUTTON      ID_BUTTON32854
+    BUTTON      ID_BUTTON32856
+    BUTTON      ID_BUTTON32859
+    BUTTON      ID_BUTTON32862
+    BUTTON      ID_BUTTON32868
+    BUTTON      ID_BUTTON32867
+    BUTTON      ID_BUTTON32869
+    BUTTON      ID_BUTTON32870
+    BUTTON      ID_BUTTON32877
+    BUTTON      ID_BUTTON32879
+    BUTTON      ID_BUTTON32884
+    BUTTON      ID_BUTTON32887
+    BUTTON      ID_BUTTON32894
+    BUTTON      ID_BUTTON32897
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "ﾌｧｲﾙ(&F)"
+    BEGIN
+        MENUITEM "新規作成(&N)\tCtrl+N",        ID_FILE_NEW
+        MENUITEM "開く(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "上書き保存(&S)\tCtrl+S",      ID_FILE_SAVE
+        MENUITEM "名前を付けて保存(&A)...",     ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "一括保存(&B)...",             ID_FILE_SAVE_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "印刷(&P)...\tCtrl+P",         ID_FILE_PRINT
+        MENUITEM "印刷ﾌﾟﾚﾋﾞｭｰ(&V)",             ID_FILE_PRINT_PREVIEW
+        MENUITEM "ﾌﾟﾘﾝﾀの設定(&R)...",          ID_FILE_PRINT_SETUP, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "最近使ったﾌｧｲﾙ",              ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Verilog-HDLへ出力(&H)",       ID_FILE_OUT_VERILOG
+        MENUITEM "C言語記述へ出力(&C)",         ID_FILE_OUT_C
+        MENUITEM SEPARATOR
+        MENUITEM "ｱﾌﾟﾘｹｰｼｮﾝの終了(&X)",         ID_APP_EXIT
+    END
+    POPUP "表示(&V)"
+    BEGIN
+        MENUITEM "ﾂｰﾙ ﾊﾞｰ(&T)",                 ID_VIEW_TOOLBAR
+        MENUITEM "ｽﾃｰﾀｽ ﾊﾞｰ(&S)",               ID_VIEW_STATUS_BAR
+        MENUITEM "ﾓｼﾞｭｰﾙﾂﾘｰ(T)",                ID_VIEW_MODTREE
+        POPUP "スタイル..."
+        BEGIN
+            MENUITEM "XP",                          ID_STYLE_XP
+            MENUITEM "XP2003",                      ID_STYLE_XP2003
+            MENUITEM "ICY",                         ID_STYLE_ICY
+            MENUITEM "ORIGINAL",                    ID_STYLE_ORIGINAL
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "ｵﾌﾞｼﾞｪｸﾄID(&O)",              ID_VIEW_OBJ_ID
+        MENUITEM "過去通過ﾄｰｸﾝ(&C)",            ID_VIEW_OLD_TOKEN
+        MENUITEM SEPARATOR
+        MENUITEM "ﾌﾙｽｸﾘｰﾝ\tF11",                ID_VIEW_FULLSCREEN
+    END
+    POPUP "編集(&E)"
+    BEGIN
+        MENUITEM "元に戻す(&U)\tCtrl+Z",        ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "切り取り(&T)\tCtrl+X",        ID_EDIT_CUT
+        MENUITEM "ｺﾋﾟｰ(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "貼り付け(&P)\tCtrl+V",        ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "検索(&F)\tCtrl+F",            ID_EDIT_FIND
+        MENUITEM "全て選択(&A)\tCtrl+A",        ID_COM_SELECTALL
+        MENUITEM "整列(&N)",                    ID_COM_ALIGN
+        MENUITEM "ﾓｼﾞｭｰﾙﾏﾈｰｼﾞｬ\tCtrl+M",        ID_MOD_MANAGER
+        MENUITEM "BSPﾒﾓ",                       ID_COM_MEMO
+    END
+    POPUP "ﾂｰﾙ(&T)"
+    BEGIN
+        MENUITEM "重なりﾁｪｯｸ(&L)",              ID_COM_OBJLAP
+        MENUITEM "ROOTﾓｼﾞｭｰﾙ名(&P)",            ID_BSP_PROPATY
+        MENUITEM "ｸﾘｱ(&C)",                     ID_COM_CLEAR
+        MENUITEM "全てのﾓｼﾞｭｰﾙを展開(&E)",      ID_MOD_EXPANDALL
+        MENUITEM "ﾘｻｰﾁ(&R)",                    ID_COM_RESEARCH
+        MENUITEM "接続情報の出力(&I)",          ID_COM_JOINTDATA
+    END
+    POPUP "検証(&T)"
+    BEGIN
+        MENUITEM "ﾁｪｯｸ(&C)\tF4",                ID_COM_COMPILE
+        MENUITEM SEPARATOR
+        MENUITEM "実行(&G)\tF5",                ID_COM_GO
+        MENUITEM "逆ｽﾃｯﾌﾟ(&U)\tF6",             ID_COM_STEP_UNDO
+        MENUITEM "ｽﾃｯﾌﾟ実行(&S)\tF7",           ID_COM_STEP
+        MENUITEM "一時停止(&S)\tF8",            ID_COM_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "検証終了(&H)\tF9",            ID_COM_HALT
+    END
+    POPUP "設定(&C)"
+    BEGIN
+        MENUITEM "環境設定",                    ID_COM_CONFIG
+        POPUP "skin"
+        BEGIN
+            MENUITEM "Default",                     IDM_SKINS
+        END
+        MENUITEM "skinを保存",                  ID_COM_SKIN_SAVE
+    END
+    POPUP "ﾍﾙﾌﾟ(&H)"
+    BEGIN
+        MENUITEM "ﾃﾞﾓを実行(&D)",               ID_COM_DEMO
+        MENUITEM "ｵﾝﾗｲﾝﾍﾙﾌﾟの表示",             ID_COM_OFFLINE_HELP
+        MENUITEM "ﾊﾞｰｼﾞｮﾝ情報(&A)",             ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            ID_OBJ_ARC,             VIRTKEY, NOINVERT
+    "A",            ID_COM_SELECTALL,       VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_EDIT_FIND,           VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_OBJ_KEMMAKIX,        VIRTKEY, NOINVERT
+    "M",            ID_MOD_MANAGER,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_OBJ_PLACE,           VIRTKEY, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_OBJ_TRANSITION,      VIRTKEY, NOINVERT
+    "U",            ID_OBJ_UHZI,            VIRTKEY, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_ADD,         ID_COM_ZOOMUP,          VIRTKEY, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_DELETE,         VIRTKEY, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F11,         ID_VIEW_FULLSCREEN,     VIRTKEY, NOINVERT
+    VK_F4,          ID_COM_COMPILE,         VIRTKEY, NOINVERT
+    VK_F5,          ID_COM_GO,              VIRTKEY, NOINVERT
+    VK_F6,          ID_COM_STEP_UNDO,       VIRTKEY, NOINVERT
+    VK_F7,          ID_COM_STEP,            VIRTKEY, NOINVERT
+    VK_F8,          ID_COM_STOP,            VIRTKEY, NOINVERT
+    VK_F9,          ID_COM_HALT,            VIRTKEY, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_SUBTRACT,    ID_COM_ZOOMDOWN,        VIRTKEY, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 247, 187
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CREDIT"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20,0,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LTEXT           "QROQS Version 3.71",IDC_STATIC,7,66,71,8,SS_NOPREFIX
+    LTEXT           "(C) 2002-2005 sakamoto",IDC_STATIC,7,76,74,8
+    PUSHBUTTON      "OK",IDOK,19,152,52,14,BS_FLAT | WS_GROUP
+    EDITTEXT        IDC_SHAINE,96,7,142,173,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | NOT 
+                    WS_BORDER | WS_VSCROLL,WS_EX_STATICEDGE
+    LTEXT           "Plastic Cell Architecture (PCA) Laboratory in Nagasaki University",
+                    IDC_STATIC,7,91,60,35
+    EDITTEXT        IDC_EDIT1,7,38,84,25,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+END
+
+IDD_TRAFUNC DIALOGEX 0, 0, 330, 171
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Transition Function"
+FONT 14, "Terminal", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,266,7,53,12,BS_FLAT
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,266,83,53,12,BS_FLAT
+    EDITTEXT        IDC_TRANSITIONFUNC,7,7,252,110,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_HSCROLL,WS_EX_TRANSPARENT | 
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_ABLETERM,7,122,189,40,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_HSCROLL,WS_EX_STATICEDGE
+    PUSHBUTTON      "透過する",IDC_BUTTON1,266,39,53,12,BS_FLAT
+    CONTROL         "発火可能時にシミュレーションを停止する",
+                    IDC_FIREABLESTOP,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | 
+                    BS_FLAT | WS_DISABLED | WS_TABSTOP,206,131,82,31,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "関数ﾁｪｯｸ",IDC_BUTTON2,266,23,53,12,BS_FLAT
+    CONTROL         "Common",IDC_COMMON,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,274,58,35,8
+END
+
+IDD_UHZIFUNC DIALOGEX 0, 0, 175, 164
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Uhzi Function"
+FONT 10, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,58,142,50,14,BS_FLAT
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,118,142,50,14,BS_FLAT
+    EDITTEXT        IDC_UHZIVALUESET,18,70,138,62,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_HSCROLL,WS_EX_RTLREADING | 
+                    WS_EX_STATICEDGE
+    CONTROL         "値を保持",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_GROUP,13,10,43,10
+    CONTROL         "ﾋﾞｯﾄ列を流す",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,13,26,58,10
+    EDITTEXT        IDC_UHZIVALUE,60,5,10,14,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER | WS_GROUP,WS_EX_STATICEDGE
+    GROUPBOX        "入力ﾃﾞｰﾀ",IDC_STATIC,13,42,148,96,BS_LEFT | BS_FLAT
+    CONTROL         "<-",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT | WS_GROUP,29,52,21,13
+    CONTROL         "->",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,90,52,21,13
+    LTEXT           "流す方向",IDC_STATIC,56,55,30,8
+    EDITTEXT        IDC_INPUTNAME,83,24,72,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "Input name",IDC_STATIC,84,13,38,8
+    CONTROL         "Common",IDC_COMMON,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_GROUP | WS_TABSTOP,128,5,40,8
+    CONTROL         "Hex",IDC_CHECK_HEX,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_GROUP | WS_TABSTOP,125,54,27,10
+END
+
+IDD_KEMFUNC DIALOGEX 0, 0, 270, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Kemmakix Function"
+FONT 10, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,213,7,50,14,BS_FLAT
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,213,24,50,14,BS_FLAT
+    CONTROL         "Big",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | BS_FLAT | 
+                    WS_GROUP,19,26,22,8
+    CONTROL         "Little",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,43,26,30,8
+    CONTROL         "破棄",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | BS_FLAT,
+                    19,37,26,10
+    CONTROL         "消費しない",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,47,37,47,8
+    EDITTEXT        IDC_OUTDATA,7,60,92,93,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | ES_NUMBER | 
+                    NOT WS_BORDER | WS_HSCROLL | WS_GROUP,WS_EX_STATICEDGE
+    EDITTEXT        IDC_COMPDATA,99,60,75,93,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | NOT WS_BORDER | 
+                    WS_HSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PASSSTATUS,174,60,11,93,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | NOT 
+                    WS_BORDER | WS_HSCROLL,WS_EX_STATICEDGE
+    LTEXT           "照合",IDC_STATIC,126,49,19,8
+    LTEXT           "合否",IDC_STATIC,169,50,16,8
+    LTEXT           "全合否",IDC_STATIC,207,134,23,8
+    EDITTEXT        IDC_PASSSTATUSALL,235,132,11,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "出力",IDC_STATIC,13,15,94,38,BS_FLAT
+    LTEXT           "Output name",IDC_STATIC,123,15,51,8
+    EDITTEXT        IDC_OUTPUTNAME,122,24,73,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Common",IDC_COMMON,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_GROUP | WS_TABSTOP,217,51,40,8
+    EDITTEXT        IDC_BITS,216,80,41,12,ES_AUTOHSCROLL | WS_GROUP,
+                    WS_EX_RIGHT
+    CONTROL         "Spin1",IDC_SPIN_BITS,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,254,80,9,13
+    LTEXT           "bits",IDC_STATIC,202,82,13,8
+    PUSHBUTTON      "ﾃﾞｰﾀ表示",IDC_REDRAW,207,110,46,15
+    SCROLLBAR       IDC_DATA_SCBAR,185,50,9,103,SBS_VERT
+    CONTROL         "Hex",IDC_CHECK_HEX,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_GROUP | WS_TABSTOP,210,97,43,8
+END
+
+IDD_TOKENFUNC DIALOGEX 0, 0, 183, 50
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Please input data..."
+FONT 10, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,126,7,50,14,BS_FLAT
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,126,24,50,14,BS_FLAT
+    EDITTEXT        IDC_TOKENVAL,18,22,91,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_STR,7,7,112,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+END
+
+IDD_CONFIGDLG DIALOG DISCARDABLE  0, 0, 187, 213
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Config"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",WS_TABSTOP,3,4,181,187
+    PUSHBUTTON      "OK",IDOK,78,195,50,14,BS_FLAT
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,134,195,50,14,BS_FLAT
+END
+
+IDD_CONF_EDIT DIALOGEX 0, 0, 229, 167
+STYLE WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    LTEXT           "ｸﾞﾘｯﾄﾞ幅",IDC_STATIC,7,67,25,8
+    EDITTEXT        IDC_HATCHSIZE,41,64,32,12,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Undo回数",IDC_STATIC,93,10,35,11
+    EDITTEXT        IDC_UNDOSIZE,128,7,32,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "ｱｰｸ中継点の移動",IDC_STATIC,93,33,74,40,BS_FLAT
+    CONTROL         "入力ｱｰｸ",IDC_CHECK_ARC_IN_MOVE,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,99,41,61,14
+    CONTROL         "出力ｱｰｸ",IDC_CHECK_ARC_OUT_MOVE,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,99,55,61,14
+    CONTROL         "常にｸﾞﾘｯﾄﾞに合わせる",IDC_ALWAYS_ALIGN,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,87,82,10
+    LTEXT           "ｸﾞﾘｯﾄﾞﾀｲﾌﾟ",IDC_STATIC,7,7,36,8
+    CONTROL         "ﾗｲﾝ",IDC_GRID_LINE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_GROUP,15,22,27,8
+    CONTROL         "ﾄﾞｯﾄ",IDC_GRID_DOT,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,15,34,28,8
+    CONTROL         "なし",IDC_GRID_NONE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,15,46,29,8
+END
+
+IDD_CONF_SIM DIALOGEX 0, 0, 189, 208
+STYLE WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CONF_SIM_SPEED,51,7,33,12,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "速度(ms)",IDC_STATIC,19,11,28,8
+    CONTROL         "ｱﾆﾒｰｼｮﾝを行う",IDC_CONF_SIM_ANIMATION,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,87,56,11
+    CONTROL         "ﾄｰｸﾝを振動させる",IDC_TOKENMOVE,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,19,103,68,10
+    RTEXT           "Undo回数",IDC_STATIC,15,27,32,8
+    EDITTEXT        IDC_UNDOSIZE,51,23,33,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    RTEXT           "表示ﾃﾞｰﾀ長",IDC_STATIC,7,43,40,8
+    EDITTEXT        IDC_DATA_VIEW_SIZE,51,39,33,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "最速設定に変更",IDC_FASTSIM,94,7,59,15
+    CONTROL         "破棄ｹﾑﾏｷの値を保持",IDC_CONF_SIM_BINVAL,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,65,76,9
+    CONTROL         "ﾄｰｸﾝ移動",IDC_TOKENTRANS,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,19,118,67,12
+END
+
+IDD_CONF_GENE DIALOGEX 0, 0, 181, 172
+STYLE WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Qmode",IDC_STATIC,7,7,56,37,BS_FLAT | WS_GROUP
+    CONTROL         "標準",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | BS_FLAT | 
+                    WS_GROUP | WS_TABSTOP,14,17,42,8
+    CONTROL         "酔いどれ",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_TABSTOP,14,31,42,8
+    PUSHBUTTON      "ﾌｫﾝﾄの設定",ID_COM_CONF_FONT,99,35,52,15,BS_FLAT | 
+                    WS_GROUP
+    LISTBOX         IDC_OBJ_LIST,13,68,55,48,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    GROUPBOX        "色の設定",IDC_STATIC,7,53,163,86,BS_FLAT
+    CONTROL         "skinを使用する",IDC_SKIN_USE,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,14,142,60,10
+    CONTROL         "ﾌﾙｶﾗｰで印刷",IDC_PRINT_COLOR,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,14,156,67,9
+    LTEXT           "ｽｹｰﾘﾝｸﾞ倍率",IDC_STATIC,70,16,41,8
+    EDITTEXT        IDC_DIAMDELTA,113,14,37,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_SLIDER_R,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,105,72,63,12
+    CONTROL         "Slider1",IDC_SLIDER_G,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,105,86,63,12
+    CONTROL         "Slider1",IDC_SLIDER_B,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,105,100,63,12
+    CONTROL         "選択時の色",IDC_CHECK_SELECTED,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,23,122,50,11
+    EDITTEXT        IDC_EDIT_R,81,71,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_G,81,85,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_B,81,100,24,12,ES_AUTOHSCROLL
+    LTEXT           "R",IDC_STATIC,73,73,8,8
+    LTEXT           "G",IDC_STATIC,73,87,8,8
+    LTEXT           "B",IDC_STATIC,73,101,8,8
+    CONTROL         "",IDC_COLREF,"Static",SS_BLACKFRAME,77,115,30,19
+    PUSHBUTTON      "色の選択",IDC_COLOR_PICKER,117,118,45,14,BS_FLAT
+END
+
+IDD_CONF_COMPILE DIALOG DISCARDABLE  0, 0, 94, 68
+STYLE WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "自動的に保存する",IDC_CONF_EDIT_COMPSAVE,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,15,15,69,10
+END
+
+IDD_OUT_VERILOG DIALOGEX 0, 0, 278, 215
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Verilog-HDLへ出力"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,161,194,51,14,BS_FLAT
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,220,194,51,14,BS_FLAT
+    PUSHBUTTON      "参照",IDC_BUTTON1,206,39,30,13,BS_FLAT
+    COMBOBOX        IDC_COMBO1,7,39,194,56,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MODULE_NAME,57,7,92,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "出力（ここにﾌｫﾙﾀﾞを作成します）",IDC_STATIC,7,28,110,10
+    LTEXT           "top module",IDC_STATIC,7,10,33,8
+    LTEXT           "DelayOverPlus",IDC_STATIC,7,163,44,8
+    EDITTEXT        IDC_EDIT_OVER_PLUS,57,159,42,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "DEBUG線の付加",IDC_VDEBUG,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_DISABLED | WS_TABSTOP,7,194,66,14
+    CONTROL         "同期式で出力",IDC_VSYNC,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_DISABLED | WS_TABSTOP,7,183,57,8
+    EDITTEXT        IDC_OPTION_TRAFUNC,7,73,130,76,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    LTEXT           "trafunc compile",IDC_STATIC,7,63,45,8
+    LTEXT           "module compile",IDC_STATIC,141,62,48,8
+    EDITTEXT        IDC_OPTION_MODULE,141,73,130,76,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_FIND_OBJ DIALOGEX 0, 0, 198, 171
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "オブジェクトリスト"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "閉じる",IDCANCEL,141,150,50,14,BS_FLAT
+    CONTROL         "List3",IDC_OBJ_LIST,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,7,7,184,137,WS_EX_STATICEDGE
+    PUSHBUTTON      "検索",ID_SEARCH,85,150,50,14,BS_FLAT
+END
+
+IDD_MODTREE DIALOGEX 0, 0, 59, 180
+STYLE WS_CHILD
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_MODTREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | 
+                    WS_TABSTOP,1,0,52,180,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_MOD_MANAGE DIALOGEX 0, 0, 223, 155
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ﾓｼﾞｭｰﾙﾏﾈｰｼﾞｬ"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,166,134,50,14,BS_FLAT
+    CONTROL         "List3",IDC_MOD_LIST,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,7,7,141,120,WS_EX_STATICEDGE
+    PUSHBUTTON      "表示",ID_SEARCH,7,134,50,14,BS_FLAT
+    CONTROL         "ﾙｰﾄに設定",IDC_ROOT,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,158,33,50,11
+    LTEXT           "ｼﾐｭﾚｰｼｮﾝ時間",IDC_STATIC,164,53,44,8
+    EDITTEXT        IDC_SIMTIME,167,67,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SELECTED_MODULE,159,13,50,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "OK",IDOK,109,134,50,14,BS_FLAT
+END
+
+IDD_OUT_C DIALOGEX 0, 0, 243, 125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "C言語記述へ出力"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,141,104,44,14,BS_FLAT
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,192,104,44,14,BS_FLAT
+    PUSHBUTTON      "参照",IDC_BUTTON1,211,39,25,13,BS_FLAT
+    COMBOBOX        IDC_COMBO1,7,39,194,56,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MODULE_NAME,42,7,92,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "出力（ここにﾌｫﾙﾀﾞを作成します）",IDC_STATIC,7,28,110,10
+    LTEXT           "top module",IDC_STATIC,7,10,33,8
+    LTEXT           "出力ﾊﾞｯﾌｧｻｲｽﾞ",IDC_STATIC,114,68,50,8
+    EDITTEXT        IDC_KEM_MAX,164,66,35,12,ES_AUTOHSCROLL
+    CONTROL         "main.c",IDC_CHECK_MAIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,18,71,38,14
+    CONTROL         "QROQS.c QROQS.h",IDC_CHECK_Q,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,18,87,74,13
+    CONTROL         "Makefile",IDC_CHECK_MAKEFILE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,18,101,43,13
+    GROUPBOX        "上書き出力",IDC_STATIC,7,61,89,57
+END
+
+IDD_TRACEOUT DIALOGEX 0, 0, 163, 39
+STYLE WS_POPUP | WS_VISIBLE
+FONT 10, "HGP創英角ｺﾞｼｯｸUB", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_OUTPUTMSG,4,0,153,32,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_TRANSPARENT
+END
+
+IDD_PLACEFUNC DIALOG DISCARDABLE  0, 0, 199, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Place"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,142,7,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,142,24,50,14
+    CONTROL         "値0で停止",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,23,45,8
+    CONTROL         "値1で停止",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,63,23,44,8
+    GROUPBOX        "ﾄｰｸﾝ通過時にｼﾐｭﾚｰｼｮﾝ停止",IDC_STATIC,7,7,128,35
+    EDITTEXT        IDC_EDIT1,7,60,185,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "通価ﾄｰｸﾝ値",IDC_STATIC,7,50,61,8
+END
+
+IDD_MEMO_DLG DIALOG DISCARDABLE  0, 0, 279, 235
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BSPﾒﾓ"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,168,214,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,222,214,50,14
+    EDITTEXT        IDC_MEMO,7,7,265,200,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "QROQS MFC ｱﾌﾟﾘｹｰｼｮﾝ\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "QROQS\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "QROQS.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "QROQS ｱﾌﾟﾘｹｰｼｮﾝ\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 238
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_TRAFUNC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 319
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_UHZIFUNC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 156
+    END
+
+    IDD_KEMFUNC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 153
+    END
+
+    IDD_TOKENFUNC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_CONFIGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 184
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 209
+    END
+
+    IDD_CONF_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_CONF_SIM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+
+    IDD_CONF_GENE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+
+    IDD_CONF_COMPILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 87
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_OUT_VERILOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_FIND_OBJ, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_MOD_MANAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_OUT_C, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_PLACEFUNC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_MEMO_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 228
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_POINTER             CURSOR  DISCARDABLE     "res\\pointer.cur"
+IDC_CUR_HAND_HOLD       CURSOR  DISCARDABLE     "res\\cur_hand.cur"
+IDC_CUR_HAND            CURSOR  DISCARDABLE     "res\\cur00001.cur"
+IDC_CUR_ARC             CURSOR  DISCARDABLE     "res\\cur00003.cur"
+IDC_CUR_TOKEN           CURSOR  DISCARDABLE     "res\\cur00004.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "QROQS\n\nQROQS\n\n\nQROQS.Document\nQROQS Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "QROQS"
+    AFX_IDS_IDLEMESSAGE     "ﾚﾃﾞｨ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "上書"
+    ID_INDICATOR_REC        "記録"
+    ID_INDICATOR_KANA       "ｶﾅ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "新規にﾌｧｲﾙを作成\n新規ﾌｧｲﾙ"
+    ID_FILE_OPEN            "既存のﾌｧｲﾙを開く\n開く"
+    ID_FILE_CLOSE           "作業中のﾌｧｲﾙを閉じる\n閉じる"
+    ID_FILE_SAVE            "作業中のﾌｧｲﾙを上書きして保存\n保存"
+    ID_FILE_SAVE_AS         "作業中のﾌｧｲﾙを新しい名前で保存\n名前をつけて保存"
+    ID_FILE_PAGE_SETUP      "印刷ｵﾌﾟｼｮﾝの変更\nﾍﾟｰｼﾞ ﾚｲｱｳﾄの設定"
+    ID_FILE_PRINT_SETUP     "ﾌﾟﾘﾝﾀ/印刷ｵﾌﾟｼｮﾝの変更\n印刷設定"
+    ID_FILE_PRINT           "作業中のﾌｧｲﾙを印刷\n印刷"
+    ID_FILE_PRINT_PREVIEW   "印刷ｲﾒｰｼﾞを表示\n印刷ﾌﾟﾚﾋﾞｭｰ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "ﾌﾟﾛｸﾞﾗﾑの情報、ﾊﾞｰｼﾞｮﾝそして著作権を表示\nﾊﾞｰｼﾞｮﾝ情報"
+    ID_APP_EXIT             "ｱﾌﾟﾘｹｰｼｮﾝを終了し，ﾌｧｲﾙの保存を指示\n終了"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE2       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE3       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE4       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE5       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE6       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE7       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE8       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE9       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE10      "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE11      "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE12      "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE13      "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE14      "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE15      "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE16      "指定のﾌｧｲﾙを開く"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "次のｳｨﾝﾄﾞｳに切り替える\n次のﾍﾟｲﾝ"
+    ID_PREV_PANE            "前のｳｨﾝﾄﾞｳに切り替える\n前のﾍﾟｲﾝ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "作業中のｳｨﾝﾄﾞｳを分割\n分割"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "選択範囲を消去\n消去"
+    ID_EDIT_CLEAR_ALL       "すべて消去\nすべて消去"
+    ID_EDIT_COPY            "選択範囲をｺﾋﾟｰしてｸﾘｯﾌﾟﾎﾞｰﾄﾞに保存\nｺﾋﾟｰ"
+    ID_EDIT_CUT             "選択範囲を切り取ってｸﾘｯﾌﾟﾎﾞｰﾄﾞに保存\n切り取り"
+    ID_EDIT_FIND            "指定したｵﾌﾞｼﾞｪｸﾄの検索\n検索"
+    ID_EDIT_PASTE           "ｸﾘｯﾌﾟﾎﾞｰﾄﾞの内容を貼り付け\n貼り付け"
+    ID_EDIT_PASTE_VERT      "ｸﾘｯﾌﾟﾎﾞｰﾄﾞの内容を連続貼り付け\n連続貼り付け"
+    ID_EDIT_PASTE_HORZ      "ｸﾘｯﾌﾟﾎﾞｰﾄﾞの内容を連続貼り付け\n連続貼り付け"
+    ID_EDIT_REPEAT          "直前に行った動作を繰り返す\n繰り返し"
+    ID_EDIT_REPLACE         "指定した文字列を他の文字列で置換\n置換"
+    ID_EDIT_SELECT_ALL      "ﾌｧｲﾙ内のすべてを選択\nすべて選択"
+    ID_EDIT_UNDO            "直前に行った動作を元に戻す\n元に戻す"
+    ID_EDIT_REDO            "直前に行った動作を繰り返す\n繰り返す"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "ﾂｰﾙ ﾊﾞｰの 表示/非表示\nﾂｰﾙ ﾊﾞｰの表示切り替え"
+    ID_VIEW_STATUS_BAR      "ｽﾃｰﾀｽ ﾊﾞｰの 表示/非表示\nｽﾃｰﾀｽ ﾊﾞｰの表示切り替え"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "ｳｨﾝﾄﾞｳのｻｲｽﾞを変更"
+    AFX_IDS_SCMOVE          "ｳｨﾝﾄﾞｳの位置を変更"
+    AFX_IDS_SCMINIMIZE      "ｳｨﾝﾄﾞｳを最小化する"
+    AFX_IDS_SCMAXIMIZE      "ｳｨﾝﾄﾞｳを最大化する"
+    AFX_IDS_SCNEXTWINDOW    "次のｳｨﾝﾄﾞｳに切り替える"
+    AFX_IDS_SCPREVWINDOW    "前のｳｨﾝﾄﾞｳに切り替える"
+    AFX_IDS_SCCLOSE         "作業中のｳｨﾝﾄﾞｳを閉じ、変更したﾌｧｲﾙの保存を指示"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "ｳｨﾝﾄﾞｳを通常のｻｲｽﾞに戻す"
+    AFX_IDS_SCTASKLIST      "ｱﾌﾟﾘｹｰｼｮﾝの切り替え"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "印刷ﾌﾟﾚﾋﾞｭｰ ﾓｰﾄﾞの終わり\nﾌﾟﾚﾋﾞｭｰのｷｬﾝｾﾙ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OBJ_PLACE            "ﾌﾟﾚｰｽを配置\nﾌﾟﾚｰｽ"
+    ID_OBJ_BTOKEN           "ﾄｰｸﾝを配置\nﾄｰｸﾝ"
+    ID_OBJ_TRANSITION       "ﾄﾗﾝｼﾞｼｮﾝを配置\nﾄﾗﾝｼﾞｼｮﾝ"
+    ID_OBJ_UHZI             "ｳｰｼﾞ(ｿｰｽﾄﾗﾝｼﾞｼｮﾝ)を配置\nｳｰｼﾞ"
+    ID_OBJ_KEMMAKIX         "ｹﾑﾏｷ(ｼﾝｸﾄﾗﾝｼﾞｼｮﾝ)を配置\nｹﾑﾏｷ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OBJ_ARC              "ｱｰｸで接続\nｱｰｸ"
+    ID_OBJ_HAND             "ﾊﾝﾄﾞで選択，移動\nﾊﾝﾄﾞ"
+    ID_COM_GO               "連続実行\n実行"
+    ID_COM_STEP             "ｽﾃｯﾌﾟ実行\nｽﾃｯﾌﾟ実行"
+    ID_COM_COMPILE          "ﾁｪｯｸ\nﾁｪｯｸ"
+    ID_COM_STOP             "ｼﾐｭﾚｰｼｮﾝを停止\n一時停止"
+    ID_COM_CLEAR            "全てｸﾘｱ\nｸﾘｱ"
+    ID_COM_HALT             "ｼﾐｭﾚｰｼｮﾝを終了\nｼﾐｭﾚｰｼｮﾝ終了"
+    ID_COM_WRITE            "ｸｲｯｸﾌｧｲﾙへ保存\nｸｲｯｸｾｰﾌﾞ"
+    ID_COM_OPEN             "ｸｲｯｸﾌｧｲﾙの読み込み\nｸｲｯｸﾛｰﾄﾞ"
+    ID_COM_CONFIG           "設定変更"
+    ID_COM_ALIGN            "ｵﾌﾞｼﾞｪｸﾄを整列\nｵﾌﾞｼﾞｪｸﾄをｸﾞﾘｯﾄﾞに合わせて整列"
+    ID_TRA_INSORT           "入力をソートします"
+    ID_VIEW_TRACEOUT        "メッセージダイアログ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TRA_OUTSORT          "出力をソートします"
+    ID_OBJ_DELETE           "ｵﾌﾞｼﾞｪｸﾄを削除\n削除"
+    ID_COM_ARCSORT          "アークをソートします"
+    ID_TRA_FUNCTION         "トランジション関数を設定します。"
+    ID_UHZI_FUNCTION        "ウージの設定を行います"
+    ID_COM_ZOOMUP           "ﾌｨｰﾙﾄﾞを拡大表示\n拡大"
+    ID_COM_ZOOMDOWN         "ﾌｨｰﾙﾄﾞを縮小表示\n縮小"
+    ID_EDIT_DELETE          "削除します"
+    ID_COM_CHAIN            "連続配置を行います\nﾁｪｲﾝ配置"
+    ID_FILE_OUT_VERILOG     "Verilog-HDLﾌｧｲﾙへ出力"
+    ID_VIEW_OBJ_ID          "ｵﾌﾞｼﾞｪｸﾄIDの 表示/非表示 ｵﾌﾞｼﾞｪｸﾄIDはﾌｧｲﾙへ保存したりファイルから読み込んだりするとソートされます"
+    ID_VIEW_OLD_TOKEN       "過去通過ﾄｰｸﾝの 表示/非表示 ｼﾐｭﾚｰｼｮﾝ時にﾌﾟﾚｰｽを通過したﾄｰｸﾝの色を表示"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_COM_STEP_UNDO        "巻き戻し\n巻き戻し"
+    ID_BUTTON32823          "切り取り"
+    ID_BUTTON32824          "ｺﾋﾟｰ"
+    ID_BUTTON32825          "貼り付け"
+    ID_COM_HELP             "お助け情報を表示\nﾍﾙﾌﾟ"
+    ID_INDICATOR_POSX       "X座標"
+    ID_INDICATOR_POSY       "Y座標"
+    ID_INDICATOR_RUNS       "動作率"
+    ID_COM_DEMO             "でもん"
+    ID_OBJ_MODULE           "ﾓｼﾞｭｰﾙを配置\nﾓｼﾞｭｰﾙ"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_MODTREE         "ﾓｼﾞｭｰﾙﾂﾘｰの 表示/非表示\nﾓｼﾞｭｰﾙﾂﾘｰの表示切り替え"
+    ID_MODULE_PROPATY       "プロパティ"
+    ID_MODULE_READ          "モジュール読み込み"
+    ID_MODULE_UP            "上位ﾓｼﾞｭｰﾙへ移動，ﾓｼﾞｭｰﾙの選択\nﾓｼﾞｭｰﾙﾂﾘｰ"
+    ID_COM_SELECTALL        "配置されているオブジェクトを全て選択\n全て選択"
+    ID_COM_BACKCONF         "表示領域をﾌｨｯﾄ，背景を変更\nなんだろう"
+    ID_FILE_SAVE_ALL        "指定ﾌｫﾙﾀﾞへ一括保存\n一括保存"
+    ID_MOD_FUNCTION         "モジュールの編集を行います"
+    ID_MENUITEM32840        "オブジェクトが重なっていないかチェックします"
+    ID_COM_OBJLAP           "ｵﾌﾞｼﾞｪｸﾄが重なって配置されていないか調べる"
+    ID_BSP_PROPATY          "ﾙｰﾄBSPの名前を設定"
+    ID_COM_BLAST            "アニメーションなしで実行\n表示ナシ実行"
+    ID_INDICATOR_PROG       "処理状況"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MENUITEM32857        "モジュールマネージャを表示します"
+    ID_MOD_MANAGER          "ﾓｼﾞｭｰﾙ一覧を表示"
+    ID_FILE_OUT_C           "C言語記述へ出力"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MOD_SET_ROOT         "ルートに設定"
+    ID_MOD_MAX_TURN         "最大シミュレーション時間の設定"
+    ID_COM_ONLINE_HELP      "詳細なヘルプを表示します"
+    ID_COM_OFFLINE_HELP     "ｲﾝﾀｰﾈｯﾄへ接続し最新のｵﾝﾗｲﾝﾍﾙﾌﾟを表示"
+    ID_COM_RESET            "初期状態に戻します"
+    ID_COM_ZOOMRECT         "選択領域を拡大"
+    ID_COM_PLACE_FUSION     "選択されている複数のﾌﾟﾚｰｽを一つにまとめます"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_STYLE_XP             "XP風ｽﾀｲﾙへ変更"
+    ID_STYLE_XP2003         "XP2003風ｽﾀｲﾙへ変更"
+    ID_STYLE_ICY            "ICY風ｽﾀｲﾙへ変更"
+    ID_STYLE_ORIGINAL       "Bruno Podettiｵﾘｼﾞﾅﾙｽﾀｲﾙへ変更"
+    ID_COM_SKIN_SAVE        "現在の色設定を保存"
+    ID_COM_TEXT             "テキストを配置"
+    ID_COM_EXPANDALL        "ﾓｼﾞｭｰﾙを全て展開します"
+    ID_MOD_EXPANDALL        "ﾓｼﾞｭｰﾙを全て展開（重い…）"
+    ID_COM_RESEARCH         "ROOT以下の入出力数を取得（あまり役に立たない）"
+    ID_COM_PLACE_FISSION    "ﾌﾟﾚｰｽが分裂します"
+    ID_VIEW_FULLSCREEN      "ﾌﾙｽｸﾘｰﾝ表示"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_COM_MEMO             "後世のためにﾒﾓを残す"
+    ID_COM_JOINTDATA        "オブジェクトの接続情報をﾌｧｲﾙへ出力"
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE 17, 1
+#pragma code_page(932)
+#endif //_WIN32
+#include "res\QROQS.rc2"  // Microsoft Visual C++ 以外のツールで編集されたリソース
+#include "l.jpn\afxres.rc"          // 標準のコンポーネント
+#include "l.jpn\afxprint.rc"        // 印刷/印刷プレビュー リソース
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

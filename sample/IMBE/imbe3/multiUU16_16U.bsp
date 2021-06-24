@@ -1,0 +1,4338 @@
+=== QROQS Objects Data Ver.2.00 ===
+
+.section[root]{
+module[multiUU16_16U]
+turn_max[5000]
+}
+.section[place]{
+/pset[ID]
+pset[1]
+pset[2]
+pset[3]
+pset[4]
+pset[5]
+pset[6]
+pset[7]
+pset[8]
+pset[9]
+pset[10]
+pset[11]
+pset[12]
+pset[13]
+pset[14]
+pset[15]
+pset[16]
+pset[17]
+pset[18]
+pset[19]
+pset[20]
+pset[21]
+pset[22]
+pset[23]
+pset[24]
+pset[25]
+pset[26]
+pset[27]
+pset[28]
+pset[29]
+pset[30]
+pset[31]
+pset[32]
+pset[33]
+pset[34]
+pset[35]
+pset[36]
+pset[37]
+pset[38]
+pset[39]
+pset[40]
+pset[41]
+pset[42]
+pset[43]
+pset[44]
+pset[45]
+pset[46]
+pset[47]
+pset[48]
+pset[49]
+pset[50]
+pset[51]
+pset[52]
+pset[53]
+pset[54]
+pset[55]
+pset[56]
+pset[57]
+pset[58]
+pset[59]
+pset[60]
+pset[61]
+pset[62]
+pset[63]
+pset[64]
+pset[65]
+pset[66]
+pset[67]
+pset[68]
+pset[69]
+pset[70]
+pset[71]
+pset[72]
+pset[73]
+pset[74]
+pset[75]
+pset[76]
+pset[77]
+pset[78]
+pset[79]
+pset[80]
+pset[81]
+pset[82]
+pset[83]
+pset[84]
+pset[85]
+pset[86]
+pset[87]
+pset[88]
+pset[89]
+pset[90]
+pset[91]
+pset[92]
+pset[93]
+pset[94]
+pset[95]
+pset[96]
+pset[97]
+pset[98]
+pset[99]
+pset[100]
+pset[101]
+pset[102]
+pset[103]
+pset[104]
+pset[105]
+pset[106]
+pset[107]
+pset[108]
+pset[109]
+pset[110]
+pset[111]
+pset[112]
+pset[113]
+pset[114]
+pset[115]
+pset[116]
+pset[117]
+pset[118]
+pset[119]
+pset[120]
+pset[121]
+pset[122]
+pset[123]
+pset[124]
+pset[125]
+pset[126]
+pset[127]
+pset[128]
+pset[129]
+pset[130]
+pset[131]
+pset[132]
+pset[133]
+pset[134]
+pset[135]
+pset[136]
+pset[137]
+pset[138]
+pset[139]
+pset[140]
+pset[141]
+pset[142]
+pset[143]
+pset[144]
+pset[145]
+pset[146]
+pset[147]
+pset[148]
+pset[149]
+pset[150]
+pset[151]
+pset[152]
+pset[153]
+pset[154]
+pset[155]
+pset[156]
+pset[157]
+pset[158]
+pset[159]
+pset[160]
+pset[161]
+pset[162]
+pset[163]
+pset[164]
+pset[165]
+pset[166]
+pset[167]
+pset[168]
+pset[169]
+pset[170]
+pset[171]
+pset[172]
+pset[173]
+pset[174]
+pset[175]
+pset[176]
+pset[177]
+pset[178]
+pset[179]
+pset[180]
+pset[181]
+pset[182]
+pset[183]
+pset[184]
+pset[185]
+pset[186]
+pset[187]
+pset[188]
+pset[189]
+pset[190]
+pset[191]
+pset[192]
+pset[193]
+pset[194]
+pset[195]
+pset[196]
+pset[197]
+pset[198]
+pset[199]
+pset[200]
+pset[201]
+pset[202]
+pset[203]
+pset[204]
+pset[205]
+pset[206]
+pset[207]
+pset[208]
+pset[209]
+pset[210]
+pset[211]
+pset[212]
+pset[213]
+pset[214]
+pset[215]
+pset[216]
+pset[217]
+pset[218]
+pset[219]
+pset[220]
+pset[221]
+pset[222]
+pset[223]
+pset[224]
+pset[225]
+pset[226]
+pset[227]
+pset[228]
+pset[229]
+pset[230]
+pset[231]
+pset[232]
+pset[233]
+pset[234]
+pset[235]
+pset[236]
+pset[237]
+pset[238]
+pset[239]
+pset[240]
+pset[241]
+pset[242]
+pset[243]
+pset[244]
+pset[245]
+pset[246]
+pset[247]
+pset[248]
+pset[249]
+pset[250]
+pset[251]
+pset[252]
+pset[253]
+pset[254]
+pset[255]
+pset[256]
+pset[257]
+pset[258]
+pset[259]
+pset[260]
+pset[261]
+pset[262]
+pset[263]
+pset[264]
+pset[265]
+pset[266]
+pset[267]
+pset[268]
+pset[269]
+pset[270]
+pset[271]
+pset[272]
+pset[273]
+pset[274]
+pset[275]
+pset[276]
+pset[277]
+pset[278]
+pset[279]
+pset[280]
+pset[281]
+pset[282]
+pset[283]
+pset[284]
+pset[285]
+pset[286]
+pset[287]
+pset[288]
+pset[289]
+pset[290]
+pset[291]
+pset[292]
+pset[293]
+pset[294]
+pset[295]
+pset[296]
+pset[297]
+pset[298]
+pset[299]
+pset[300]
+pset[301]
+pset[302]
+pset[303]
+pset[304]
+pset[305]
+pset[306]
+pset[307]
+pset[308]
+pset[309]
+pset[310]
+pset[311]
+pset[312]
+pset[313]
+pset[314]
+pset[315]
+pset[316]
+pset[317]
+pset[318]
+pset[319]
+pset[320]
+pset[321]
+pset[322]
+pset[323]
+pset[324]
+pset[325]
+pset[326]
+pset[327]
+pset[328]
+pset[329]
+pset[330]
+pset[331]
+pset[332]
+pset[333]
+pset[334]
+pset[335]
+pset[336]
+pset[337]
+pset[338]
+pset[339]
+pset[340]
+pset[341]
+pset[342]
+pset[343]
+pset[344]
+pset[345]
+pset[346]
+pset[347]
+pset[348]
+pset[349]
+pset[350]
+pset[351]
+pset[352]
+pset[353]
+pset[354]
+pset[355]
+pset[356]
+pset[357]
+pset[358]
+pset[359]
+pset[360]
+pset[361]
+pset[362]
+pset[363]
+pset[364]
+pset[365]
+pset[366]
+pset[367]
+pset[368]
+pset[369]
+pset[370]
+pset[371]
+pset[372]
+pset[373]
+pset[374]
+pset[375]
+pset[376]
+pset[377]
+pset[378]
+pset[379]
+pset[380]
+pset[381]
+pset[382]
+pset[383]
+pset[384]
+pset[385]
+pset[386]
+pset[387]
+pset[388]
+pset[389]
+pset[390]
+pset[391]
+pset[392]
+pset[393]
+pset[394]
+pset[395]
+pset[396]
+pset[397]
+pset[398]
+pset[399]
+pset[400]
+pset[401]
+pset[402]
+pset[403]
+pset[404]
+pset[405]
+pset[406]
+pset[407]
+pset[408]
+pset[409]
+pset[410]
+pset[411]
+pset[412]
+pset[413]
+pset[414]
+pset[415]
+pset[416]
+pset[417]
+pset[418]
+pset[419]
+pset[420]
+pset[421]
+pset[422]
+pset[423]
+pset[424]
+pset[425]
+pset[426]
+pset[427]
+pset[428]
+pset[429]
+pset[430]
+pset[431]
+pset[432]
+pset[433]
+pset[434]
+pset[435]
+pset[436]
+pset[437]
+pset[438]
+pset[439]
+pset[440]
+pset[441]
+pset[442]
+pset[443]
+pset[444]
+pset[445]
+pset[446]
+pset[447]
+pset[448]
+pset[449]
+pset[450]
+pset[451]
+pset[452]
+pset[453]
+pset[454]
+pset[455]
+pset[456]
+pset[457]
+pset[458]
+pset[459]
+pset[460]
+pset[461]
+pset[462]
+pset[463]
+pset[464]
+pset[465]
+pset[466]
+pset[467]
+pset[468]
+pset[469]
+pset[470]
+pset[471]
+pset[472]
+pset[473]
+pset[474]
+pset[475]
+pset[476]
+pset[477]
+pset[478]
+pset[479]
+pset[480]
+pset[481]
+pset[482]
+pset[483]
+pset[484]
+pset[485]
+pset[486]
+pset[487]
+pset[488]
+pset[489]
+pset[490]
+pset[491]
+pset[492]
+pset[493]
+pset[494]
+pset[495]
+pset[496]
+pset[497]
+pset[498]
+pset[499]
+pset[500]
+pset[501]
+pset[502]
+pset[503]
+pset[504]
+pset[505]
+pset[506]
+pset[507]
+pset[508]
+pset[509]
+pset[510]
+pset[511]
+pset[512]
+pset[513]
+pset[514]
+pset[515]
+pset[516]
+pset[517]
+pset[518]
+pset[519]
+pset[520]
+pset[521]
+pset[522]
+pset[523]
+pset[524]
+pset[525]
+pset[526]
+pset[527]
+pset[528]
+pset[529]
+pset[530]
+pset[531]
+pset[532]
+pset[533]
+pset[534]
+pset[535]
+pset[536]
+pset[537]
+pset[538]
+pset[539]
+pset[540]
+pset[541]
+pset[542]
+pset[543]
+pset[544]
+pset[545]
+pset[546]
+pset[547]
+pset[548]
+pset[549]
+pset[550]
+pset[551]
+pset[552]
+pset[553]
+pset[554]
+pset[555]
+pset[556]
+pset[557]
+pset[558]
+pset[559]
+pset[560]
+pset[561]
+pset[562]
+pset[563]
+pset[564]
+pset[565]
+pset[566]
+pset[567]
+pset[568]
+pset[569]
+pset[570]
+pset[571]
+pset[572]
+pset[573]
+pset[574]
+pset[575]
+}
+.section[transition]{
+/tran[ID,f1:f2..]
+tran[576,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[577,o1=i1;]
+tran[578,o1=i1;]
+tran[579,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[580,o1=i1;]
+tran[581,o1=i1;]
+tran[582,o1=i1;]
+tran[583,o1=i1;]
+tran[584,o1=i1;]
+tran[585,o1=i1;]
+tran[586,o1=i1;]
+tran[587,o1=i1;]
+tran[588,o1=i1;]
+tran[589,o1=i1;]
+tran[590,o1=i1;]
+tran[591,o1=i1;]
+tran[592,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[593,o1=i1;]
+tran[594,o1=i1;]
+tran[595,o1=i1;]
+tran[596,o1=i1;]
+tran[597,o1=i1;]
+tran[598,o1=i1;]
+tran[599,o1=i1;]
+tran[600,o1=i1;]
+tran[601,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[602,o1=i1;]
+tran[603,o1=i1;]
+tran[604,o1=i1;]
+tran[605,o1=i1;]
+tran[606,o1=i1;]
+tran[607,o1=i1;]
+tran[608,o1=i1;]
+tran[609,o1=i1;]
+tran[610,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[611,o1=i1;]
+tran[612,o1=i1;]
+tran[613,o1=i1;]
+tran[614,o1=i1;]
+tran[615,o1=i1;]
+tran[616,o1=i1;]
+tran[617,o1=i1;]
+tran[618,o1=i1;]
+tran[619,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[620,o1=i1;]
+tran[621,o1=i1;]
+tran[622,o1=i1;]
+tran[623,o1=i1;]
+tran[624,o1=i1;]
+tran[625,o1=i1;]
+tran[626,o1=i1;]
+tran[627,o1=i1;]
+tran[628,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[629,o1=i1;]
+tran[630,o1=i1;]
+tran[631,o1=i1;]
+tran[632,o1=i1;]
+tran[633,o1=i1;]
+tran[634,o1=i1;]
+tran[635,// counter
+co0=(~ci0);
+co1=(~ci0&ci1|ci0&~ci1);
+co2=(~(ci0&ci1)&ci2|(ci0&ci1)&~ci2);
+co3=(~(ci0&ci1&ci2)&ci3|(ci0&ci1&ci2)&~ci3);
+co4=(~(ci0&ci1&ci2&ci3)&ci4|(ci0&ci1&ci2&ci3)&~ci4);
+
+// control
+// select 16:1
+select1=~ci4;
+//
+// tgl 32bit周期に１を出力
+clr=~ci0&~ci1&~ci2&~ci3&~ci4;
+]
+tran[636,o1=i1;]
+tran[637,o1=i1;]
+tran[638,o1=i1;]
+tran[639,o1=i1;]
+tran[640,o1=i1;]
+tran[641,o1=i1;]
+tran[642,o1=i1;]
+tran[643,o1=i1;]
+tran[644,o1=i1;
+o2=i1;]
+tran[645,?select;
+o1=i1;]
+tran[646,?~select;
+o1=i1;]
+tran[647,?select;
+o1=i1;]
+tran[648,?~select;
+o1=i1;]
+tran[649,o1=i1;]
+tran[650,o1=i1;]
+tran[651,o1=i1;]
+tran[652,o1=i1;]
+tran[653,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[654,o1=i1;]
+tran[655,o1=i1;]
+tran[656,o1=i1;]
+tran[657,o1=i1;]
+tran[658,o1=i1;]
+tran[659,o1=i1;]
+tran[660,o1=i1;]
+tran[661,o1=i1;]
+tran[662,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[663,o1=i1;]
+tran[664,o1=i1;]
+tran[665,o1=i1;]
+tran[666,o1=i1;]
+tran[667,o1=i1;]
+tran[668,o1=i1;]
+tran[669,o1=i1;]
+tran[670,o1=i1;]
+tran[671,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[672,o1=i1;]
+tran[673,o1=i1;]
+tran[674,o1=i1;]
+tran[675,o1=i1;]
+tran[676,o1=i1;]
+tran[677,o1=i1;]
+tran[678,o1=i1;]
+tran[679,o1=i1;]
+tran[680,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[681,o1=i1;]
+tran[682,o1=i1;]
+tran[683,o1=i1;]
+tran[684,o1=i1;]
+tran[685,o1=i1;]
+tran[686,o1=i1;]
+tran[687,o1=i1;]
+tran[688,o1=i1;]
+tran[689,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[690,o1=i1;]
+tran[691,o1=i1;]
+tran[692,o1=i1;]
+tran[693,o1=i1;]
+tran[694,o1=i1;]
+tran[695,o1=i1;]
+tran[696,o1=i1;]
+tran[697,o1=i1;]
+tran[698,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[699,o1=i1;]
+tran[700,o1=i1;]
+tran[701,o1=i1;]
+tran[702,o1=i1;]
+tran[703,o1=i1;]
+tran[704,o1=i1;]
+tran[705,o1=i1;]
+tran[706,o1=i1;]
+tran[707,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[708,o1=i1;]
+tran[709,o1=i1;]
+tran[710,o1=i1;]
+tran[711,o1=i1;]
+tran[712,o1=i1;]
+tran[713,o1=i1;]
+tran[714,o1=i1;]
+tran[715,o1=i1;]
+tran[716,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[717,o1=i1;]
+tran[718,o1=i1;]
+tran[719,o1=i1;]
+tran[720,o1=i1;]
+tran[721,o1=i1;]
+tran[722,o1=i1;]
+tran[723,o1=i1;]
+tran[724,o1=i1;]
+tran[725,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[726,o1=i1;]
+tran[727,o1=i1;]
+tran[728,o1=i1;]
+tran[729,o1=i1;]
+tran[730,o1=i1;]
+tran[731,o1=i1;]
+tran[732,o1=i1;]
+tran[733,o1=i1;]
+tran[734,// counter
+co0=(~ci0);
+co1=(~ci0&ci1|ci0&~ci1);
+co2=(~(ci0&ci1)&ci2|(ci0&ci1)&~ci2);
+co3=(~(ci0&ci1&ci2)&ci3|(ci0&ci1&ci2)&~ci3);
+co4=(~(ci0&ci1&ci2&ci3)&ci4|(ci0&ci1&ci2&ci3)&~ci4);
+
+// control
+// select 16:1
+select1=ci4;
+//
+]
+tran[735,o1=i1;]
+tran[736,o1=i1;]
+tran[737,o1=i1;]
+tran[738,o1=i1;]
+tran[739,o1=i1;]
+tran[740,o1=i1;]
+tran[741,o1=i1;]
+tran[742,o1=i1;]
+tran[743,o1=i1;]
+tran[744,o1=i1;]
+tran[745,?select;
+o1=i1;]
+tran[746,?~select;
+o1=i1;]
+tran[747,// counter
+co0=(~ci0);
+co1=(~ci0&ci1|ci0&~ci1);
+co2=(~(ci0&ci1)&ci2|(ci0&ci1)&~ci2);
+co3=(~(ci0&ci1&ci2)&ci3|(ci0&ci1&ci2)&~ci3);
+co4=(~(ci0&ci1&ci2&ci3)&ci4|(ci0&ci1&ci2&ci3)&~ci4);
+
+// control
+// select 16:1
+select1=~ci4;
+//
+]
+tran[748,o1=i1;]
+tran[749,o1=i1;]
+tran[750,o1=i1;]
+tran[751,o1=i1;]
+tran[752,o1=i1;]
+tran[753,o1=i1;]
+tran[754,o1=i1;]
+tran[755,o1=i1;]
+tran[756,o1=i1;
+o2=i1;]
+tran[757,o1=i1;]
+tran[758,o1=i1;]
+tran[759,?select;
+o1=i1;]
+tran[760,?~select;
+o1=i1;]
+tran[761,?select;
+o1=i1;]
+tran[762,?~select;
+o1=i1;]
+tran[763,o1=i1;]
+tran[764,o1=i1;]
+tran[765,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[766,o1=i1;]
+tran[767,o1=i1;]
+tran[768,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[769,o1=i1;]
+tran[770,o1=i1;]
+tran[771,o1=i1;]
+tran[772,o1=i1;]
+tran[773,o1=i1;]
+tran[774,o1=i1;]
+tran[775,o1=i1;]
+tran[776,o1=i1;]
+tran[777,o1=i1;]
+tran[778,o1=i1;]
+tran[779,o1=i1;]
+tran[780,o1=i1;]
+tran[781,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[782,o1=i1;]
+tran[783,o1=i1;]
+tran[784,o1=i1;]
+tran[785,o1=i1;]
+tran[786,o1=i1;]
+tran[787,o1=i1;]
+tran[788,o1=i1;]
+tran[789,o1=i1;]
+tran[790,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[791,o1=i1;]
+tran[792,o1=i1;]
+tran[793,o1=i1;]
+tran[794,o1=i1;]
+tran[795,o1=i1;]
+tran[796,o1=i1;]
+tran[797,o1=i1;]
+tran[798,o1=i1;]
+tran[799,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[800,o1=i1;]
+tran[801,o1=i1;]
+tran[802,o1=i1;]
+tran[803,o1=i1;]
+tran[804,o1=i1;]
+tran[805,o1=i1;]
+tran[806,o1=i1;]
+tran[807,o1=i1;]
+tran[808,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[809,o1=i1;]
+tran[810,o1=i1;]
+tran[811,o1=i1;]
+tran[812,o1=i1;]
+tran[813,o1=i1;]
+tran[814,o1=i1;]
+tran[815,o1=i1;]
+tran[816,o1=i1;]
+tran[817,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[818,o1=i1;]
+tran[819,o1=i1;]
+tran[820,o1=i1;]
+tran[821,o1=i1;]
+tran[822,o1=i1;]
+tran[823,o1=i1;]
+tran[824,// counter
+co0=(~ci0);
+co1=(~ci0&ci1|ci0&~ci1);
+co2=(~(ci0&ci1)&ci2|(ci0&ci1)&~ci2);
+co3=(~(ci0&ci1&ci2)&ci3|(ci0&ci1&ci2)&~ci3);
+co4=(~(ci0&ci1&ci2&ci3)&ci4|(ci0&ci1&ci2&ci3)&~ci4);
+
+// control
+// select 16:1
+select1=~ci4;
+//
+// tgl 32bit周期に１を出力
+clr=~ci0&~ci1&~ci2&~ci3&~ci4;
+]
+tran[825,o1=i1;]
+tran[826,o1=i1;]
+tran[827,o1=i1;]
+tran[828,o1=i1;]
+tran[829,o1=i1;]
+tran[830,o1=i1;]
+tran[831,o1=i1;]
+tran[832,o1=i1;]
+tran[833,o1=i1;
+o2=i1;]
+tran[834,?select;
+o1=i1;]
+tran[835,?~select;
+o1=i1;]
+tran[836,?select;
+o1=i1;]
+tran[837,?~select;
+o1=i1;]
+tran[838,o1=i1;]
+tran[839,o1=i1;]
+tran[840,o1=i1;]
+tran[841,o1=i1;]
+tran[842,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[843,o1=i1;]
+tran[844,o1=i1;]
+tran[845,o1=i1;]
+tran[846,o1=i1;]
+tran[847,o1=i1;]
+tran[848,o1=i1;]
+tran[849,o1=i1;]
+tran[850,o1=i1;]
+tran[851,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[852,o1=i1;]
+tran[853,o1=i1;]
+tran[854,o1=i1;]
+tran[855,o1=i1;]
+tran[856,o1=i1;]
+tran[857,o1=i1;]
+tran[858,o1=i1;]
+tran[859,o1=i1;]
+tran[860,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[861,o1=i1;]
+tran[862,o1=i1;]
+tran[863,o1=i1;]
+tran[864,o1=i1;]
+tran[865,o1=i1;]
+tran[866,o1=i1;]
+tran[867,o1=i1;]
+tran[868,o1=i1;]
+tran[869,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[870,o1=i1;]
+tran[871,o1=i1;]
+tran[872,o1=i1;]
+tran[873,o1=i1;]
+tran[874,o1=i1;]
+tran[875,o1=i1;]
+tran[876,o1=i1;]
+tran[877,o1=i1;]
+tran[878,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[879,o1=i1;]
+tran[880,o1=i1;]
+tran[881,o1=i1;]
+tran[882,o1=i1;]
+tran[883,o1=i1;]
+tran[884,o1=i1;]
+tran[885,o1=i1;]
+tran[886,o1=i1;]
+tran[887,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[888,o1=i1;]
+tran[889,o1=i1;]
+tran[890,o1=i1;]
+tran[891,o1=i1;]
+tran[892,o1=i1;]
+tran[893,o1=i1;]
+tran[894,o1=i1;]
+tran[895,o1=i1;]
+tran[896,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[897,o1=i1;]
+tran[898,o1=i1;]
+tran[899,o1=i1;]
+tran[900,o1=i1;]
+tran[901,o1=i1;]
+tran[902,o1=i1;]
+tran[903,o1=i1;]
+tran[904,o1=i1;]
+tran[905,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[906,o1=i1;]
+tran[907,o1=i1;]
+tran[908,o1=i1;]
+tran[909,o1=i1;]
+tran[910,o1=i1;]
+tran[911,o1=i1;]
+tran[912,o1=i1;]
+tran[913,o1=i1;]
+tran[914,// 乗算
+// input xi:乗数 yi:被乗数 si:部分積 ci:キャリー yli:計算する被乗数 ti:被乗数取り込み
+// output xo:乗数 yo:被乗数 so:部分積 co:キャリー ylo:計算する被乗数 to:被乗数取り込み
+
+// 乗数&被乗数&取り込み信号
+xo=xi;
+yo=yi;
+to=ti;
+
+// 被乗数の取り込み＆そのまま 
+// ylo 計算する被乗数
+// ti==1 被乗数を取り込む
+// ti==0 そのまま
+ylo=ti&(yi)|~ti&(yli);
+
+// 乗算
+// so:部分積
+//so=(xi&yli) ^ si ^ ci;
+so=(xi&(ti&(yi)|~ti&(yli))) ^ si ^ (~ti&(ci));
+
+// 乗算　キャリー  if ti == 1 then co=0 
+//co=~ti&((xi&yli)&si | si&ci | (xi&yli)&ci);
+co=ti&((xi&yi)&si)|~ti&((xi&yli)&si | si&ci | ((xi&yli)&ci) );
+
+]
+tran[915,o1=i1;]
+tran[916,o1=i1;]
+tran[917,o1=i1;]
+tran[918,o1=i1;]
+tran[919,o1=i1;]
+tran[920,o1=i1;]
+tran[921,o1=i1;]
+tran[922,o1=i1;]
+tran[923,// counter
+co0=(~ci0);
+co1=(~ci0&ci1|ci0&~ci1);
+co2=(~(ci0&ci1)&ci2|(ci0&ci1)&~ci2);
+co3=(~(ci0&ci1&ci2)&ci3|(ci0&ci1&ci2)&~ci3);
+co4=(~(ci0&ci1&ci2&ci3)&ci4|(ci0&ci1&ci2&ci3)&~ci4);
+
+// control
+// select 16:1
+select1=ci4;
+//
+]
+tran[924,o1=i1;]
+tran[925,o1=i1;]
+tran[926,o1=i1;]
+tran[927,o1=i1;]
+tran[928,o1=i1;]
+tran[929,o1=i1;]
+tran[930,o1=i1;]
+tran[931,o1=i1;]
+tran[932,o1=i1;]
+tran[933,o1=i1;]
+tran[934,?select;
+o1=i1;]
+tran[935,?~select;
+o1=i1;]
+tran[936,o1=i1;]
+tran[937,o1=i1;]
+tran[938,// counter
+co0=(~ci0);
+co1=(~ci0&ci1|ci0&~ci1);
+co2=(~(ci0&ci1)&ci2|(ci0&ci1)&~ci2);
+co3=(~(ci0&ci1&ci2)&ci3|(ci0&ci1&ci2)&~ci3);
+co4=(~(ci0&ci1&ci2&ci3)&ci4|(ci0&ci1&ci2&ci3)&~ci4);
+
+// control
+// select 16:1
+select1=~ci4;
+//
+]
+tran[939,o1=i1;]
+tran[940,o1=i1;]
+tran[941,o1=i1;]
+tran[942,o1=i1;]
+tran[943,o1=i1;]
+tran[944,o1=i1;]
+tran[945,o1=i1;]
+tran[946,o1=i1;]
+tran[947,o1=i1;]
+tran[948,o1=i1;]
+tran[949,?select;
+o1=i1;]
+tran[950,?~select;
+o1=i1;]
+tran[951,o1=i1;]
+tran[952,o1=i1;]
+}
+.section[uhzi]{
+/uset[ID,PlaceID,inc,line]=(d1,d2,d3...)
+uset[953,1,0,0]={
+data(0)
+}
+uset[954,1,0,0]={
+data(0)
+}
+uset[955,1,0,0]={
+data(0)
+}
+uset[956,1,1,1]={
+data(0000000001111111)
+data(0000000000000101)
+data(1111111111111111)
+data(0000000000000001)
+}[unsigned_multiplier]
+uset[957,1,1,1]={
+data(1111111111111111)
+data(0000000000000011)
+data(0000000000000111)
+data(0000000000000011)
+}[unsigned_multiplicand]
+uset[958,1,0,0]={
+data(0)
+}
+uset[959,1,0,0]={
+data(0)
+}
+uset[960,1,0,0]={
+data(0)
+}
+}
+.section[kemmakix]{
+/kset[ID,PlaceID,line]
+kset[961,16,2,0]{
+}
+kset[962,16,2,0]{
+}
+kset[963,16,2,0]{
+}
+kset[964,16,2,0]{
+}
+kset[965,16,2,0]{
+}
+kset[966,16,2,0]{
+}
+kset[967,16,2,0]{
+}
+kset[968,16,2,0]{
+}
+kset[969,16,1,0]{
+}[data_out]
+}
+.section[module]{
+/module[ID,name]
+}
+.section[vobject]{
+obj[0,1,1]=(-900,180)
+obj[0,1,2]=(-900,220)
+obj[0,1,3]=(-900,140)
+obj[0,1,4]=(-900,100)
+obj[0,1,5]=(-740,180)
+obj[0,1,6]=(-660,180)
+obj[0,1,7]=(-580,180)
+obj[0,1,8]=(-580,220)
+obj[0,1,9]=(-580,140)
+obj[0,1,10]=(-580,100)
+obj[0,1,11]=(-740,100)
+obj[0,1,12]=(-660,100)
+obj[0,1,13]=(-900,300)
+obj[0,1,14]=(-820,300)
+obj[0,1,15]=(-740,300)
+obj[0,1,16]=(-740,340)
+obj[0,1,17]=(-820,340)
+obj[0,1,18]=(-900,340)
+obj[0,1,19]=(-580,300)
+obj[0,1,20]=(-500,300)
+obj[0,1,21]=(-420,300)
+obj[0,1,22]=(-420,340)
+obj[0,1,23]=(-500,340)
+obj[0,1,24]=(-580,340)
+obj[0,1,25]=(-420,180)
+obj[0,1,26]=(-340,180)
+obj[0,1,27]=(-260,180)
+obj[0,1,28]=(-260,220)
+obj[0,1,29]=(-260,140)
+obj[0,1,30]=(-260,100)
+obj[0,1,31]=(-420,100)
+obj[0,1,32]=(-340,100)
+obj[0,1,33]=(-260,300)
+obj[0,1,34]=(-180,300)
+obj[0,1,35]=(-100,300)
+obj[0,1,36]=(-100,340)
+obj[0,1,37]=(-180,340)
+obj[0,1,38]=(-260,340)
+obj[0,1,39]=(-100,180)
+obj[0,1,40]=(-20,180)
+obj[0,1,41]=(60,180)
+obj[0,1,42]=(60,220)
+obj[0,1,43]=(60,140)
+obj[0,1,44]=(60,100)
+obj[0,1,45]=(-100,100)
+obj[0,1,46]=(-20,100)
+obj[0,1,47]=(60,300)
+obj[0,1,48]=(140,300)
+obj[0,1,49]=(220,300)
+obj[0,1,50]=(220,340)
+obj[0,1,51]=(140,340)
+obj[0,1,52]=(60,340)
+obj[0,1,53]=(220,180)
+obj[0,1,54]=(300,180)
+obj[0,1,55]=(380,180)
+obj[0,1,56]=(380,220)
+obj[0,1,57]=(380,140)
+obj[0,1,58]=(380,100)
+obj[0,1,59]=(220,100)
+obj[0,1,60]=(300,100)
+obj[0,1,61]=(380,300)
+obj[0,1,62]=(460,300)
+obj[0,1,63]=(540,300)
+obj[0,1,64]=(540,340)
+obj[0,1,65]=(460,340)
+obj[0,1,66]=(380,340)
+obj[0,1,67]=(540,180)
+obj[0,1,68]=(620,180)
+obj[0,1,69]=(700,180)
+obj[0,1,70]=(700,220)
+obj[0,1,71]=(700,140)
+obj[0,1,72]=(700,100)
+obj[0,1,73]=(540,100)
+obj[0,1,74]=(620,100)
+obj[0,1,75]=(700,300)
+obj[0,1,76]=(780,300)
+obj[0,1,77]=(860,300)
+obj[0,1,78]=(860,340)
+obj[0,1,79]=(780,340)
+obj[0,1,80]=(700,340)
+obj[0,1,81]=(860,180)
+obj[0,1,82]=(940,180)
+obj[0,1,83]=(1020,180)
+obj[0,1,84]=(1020,220)
+obj[0,1,85]=(1020,140)
+obj[0,1,86]=(1020,100)
+obj[0,1,87]=(860,100)
+obj[0,1,88]=(940,100)
+obj[0,1,89]=(1020,300)
+obj[0,1,90]=(1100,300)
+obj[0,1,91]=(1180,300)
+obj[0,1,92]=(1180,340)
+obj[0,1,93]=(1100,340)
+obj[0,1,94]=(1020,340)
+obj[0,1,95]=(-1260,340)
+obj[0,1,96]=(-1180,340)
+obj[0,1,97]=(-1100,340)
+obj[0,1,98]=(-1100,380)
+obj[0,1,99]=(-1180,380)
+obj[0,1,100]=(-1260,380)
+obj[0,1,101]=(-1260,420)
+obj[0,1,102]=(-1180,420)
+obj[0,1,103]=(-1100,420)
+obj[0,1,104]=(-1100,460)
+obj[0,1,105]=(-1180,460)
+obj[0,1,106]=(-1260,460)
+obj[0,1,107]=(-1180,180)
+obj[0,1,108]=(-1140,20)
+obj[0,1,109]=(-1140,100)
+obj[0,1,110]=(-1060,60)
+obj[0,1,111]=(-1140,60)
+obj[0,1,112]=(-1140,-100)
+obj[0,1,113]=(-1140,-20)
+obj[0,1,114]=(-1060,-60)
+obj[0,1,115]=(-1140,-60)
+obj[0,1,116]=(3740,180)
+obj[0,1,117]=(3820,180)
+obj[0,1,118]=(3900,180)
+obj[0,1,119]=(3900,220)
+obj[0,1,120]=(3900,140)
+obj[0,1,121]=(3900,100)
+obj[0,1,122]=(3740,100)
+obj[0,1,123]=(3820,100)
+obj[0,1,124]=(4060,180)
+obj[0,1,125]=(4220,220)
+obj[0,1,126]=(4060,140)
+obj[0,1,127]=(4060,100)
+obj[0,1,128]=(3900,300)
+obj[0,1,129]=(3980,300)
+obj[0,1,130]=(4060,300)
+obj[0,1,131]=(4060,340)
+obj[0,1,132]=(3980,340)
+obj[0,1,133]=(3900,340)
+obj[0,1,134]=(1180,180)
+obj[0,1,135]=(1260,180)
+obj[0,1,136]=(1340,180)
+obj[0,1,137]=(1340,220)
+obj[0,1,138]=(1340,140)
+obj[0,1,139]=(1340,100)
+obj[0,1,140]=(1180,100)
+obj[0,1,141]=(1260,100)
+obj[0,1,142]=(1340,300)
+obj[0,1,143]=(1420,300)
+obj[0,1,144]=(1500,300)
+obj[0,1,145]=(1500,340)
+obj[0,1,146]=(1420,340)
+obj[0,1,147]=(1340,340)
+obj[0,1,148]=(1500,180)
+obj[0,1,149]=(1580,180)
+obj[0,1,150]=(1660,180)
+obj[0,1,151]=(1660,220)
+obj[0,1,152]=(1660,140)
+obj[0,1,153]=(1660,100)
+obj[0,1,154]=(1500,100)
+obj[0,1,155]=(1580,100)
+obj[0,1,156]=(1660,300)
+obj[0,1,157]=(1740,300)
+obj[0,1,158]=(1820,300)
+obj[0,1,159]=(1820,340)
+obj[0,1,160]=(1740,340)
+obj[0,1,161]=(1660,340)
+obj[0,1,162]=(1820,180)
+obj[0,1,163]=(1900,180)
+obj[0,1,164]=(1980,180)
+obj[0,1,165]=(1980,220)
+obj[0,1,166]=(1980,140)
+obj[0,1,167]=(1980,100)
+obj[0,1,168]=(1820,100)
+obj[0,1,169]=(1900,100)
+obj[0,1,170]=(1980,300)
+obj[0,1,171]=(2060,300)
+obj[0,1,172]=(2140,300)
+obj[0,1,173]=(2140,340)
+obj[0,1,174]=(2060,340)
+obj[0,1,175]=(1980,340)
+obj[0,1,176]=(2140,180)
+obj[0,1,177]=(2220,180)
+obj[0,1,178]=(2300,180)
+obj[0,1,179]=(2300,220)
+obj[0,1,180]=(2300,140)
+obj[0,1,181]=(2300,100)
+obj[0,1,182]=(2140,100)
+obj[0,1,183]=(2220,100)
+obj[0,1,184]=(2300,300)
+obj[0,1,185]=(2380,300)
+obj[0,1,186]=(2460,300)
+obj[0,1,187]=(2460,340)
+obj[0,1,188]=(2380,340)
+obj[0,1,189]=(2300,340)
+obj[0,1,190]=(2460,180)
+obj[0,1,191]=(2540,180)
+obj[0,1,192]=(2620,180)
+obj[0,1,193]=(2620,220)
+obj[0,1,194]=(2620,140)
+obj[0,1,195]=(2620,100)
+obj[0,1,196]=(2460,100)
+obj[0,1,197]=(2540,100)
+obj[0,1,198]=(2620,300)
+obj[0,1,199]=(2700,300)
+obj[0,1,200]=(2780,300)
+obj[0,1,201]=(2780,340)
+obj[0,1,202]=(2700,340)
+obj[0,1,203]=(2620,340)
+obj[0,1,204]=(2780,180)
+obj[0,1,205]=(2860,180)
+obj[0,1,206]=(2940,180)
+obj[0,1,207]=(2940,220)
+obj[0,1,208]=(2940,140)
+obj[0,1,209]=(2940,100)
+obj[0,1,210]=(2780,100)
+obj[0,1,211]=(2860,100)
+obj[0,1,212]=(2940,300)
+obj[0,1,213]=(3020,300)
+obj[0,1,214]=(3100,300)
+obj[0,1,215]=(3100,340)
+obj[0,1,216]=(3020,340)
+obj[0,1,217]=(2940,340)
+obj[0,1,218]=(3100,180)
+obj[0,1,219]=(3180,180)
+obj[0,1,220]=(3260,180)
+obj[0,1,221]=(3260,220)
+obj[0,1,222]=(3260,140)
+obj[0,1,223]=(3260,100)
+obj[0,1,224]=(3100,100)
+obj[0,1,225]=(3180,100)
+obj[0,1,226]=(3260,300)
+obj[0,1,227]=(3340,300)
+obj[0,1,228]=(3420,300)
+obj[0,1,229]=(3420,340)
+obj[0,1,230]=(3340,340)
+obj[0,1,231]=(3260,340)
+obj[0,1,232]=(3420,180)
+obj[0,1,233]=(3500,180)
+obj[0,1,234]=(3580,180)
+obj[0,1,235]=(3580,220)
+obj[0,1,236]=(3580,140)
+obj[0,1,237]=(3580,100)
+obj[0,1,238]=(3420,100)
+obj[0,1,239]=(3500,100)
+obj[0,1,240]=(3580,300)
+obj[0,1,241]=(3660,300)
+obj[0,1,242]=(3740,300)
+obj[0,1,243]=(3740,340)
+obj[0,1,244]=(3660,340)
+obj[0,1,245]=(3580,340)
+obj[0,1,246]=(-1100,500)
+obj[0,1,247]=(-1180,500)
+obj[0,1,248]=(-1260,500)
+obj[0,2,576]=(-820,220)
+obj[0,2,577]=(-700,180)
+obj[0,2,578]=(-620,180)
+obj[0,2,579]=(-500,220)
+obj[0,2,580]=(-620,100)
+obj[0,2,581]=(-700,100)
+obj[0,2,582]=(-860,300)
+obj[0,2,583]=(-780,300)
+obj[0,2,584]=(-860,340)
+obj[0,2,585]=(-780,340)
+obj[0,2,586]=(-540,300)
+obj[0,2,587]=(-460,300)
+obj[0,2,588]=(-540,340)
+obj[0,2,589]=(-460,340)
+obj[0,2,590]=(-380,180)
+obj[0,2,591]=(-300,180)
+obj[0,2,592]=(-180,220)
+obj[0,2,593]=(-300,100)
+obj[0,2,594]=(-380,100)
+obj[0,2,595]=(-220,300)
+obj[0,2,596]=(-140,300)
+obj[0,2,597]=(-220,340)
+obj[0,2,598]=(-140,340)
+obj[0,2,599]=(-60,180)
+obj[0,2,600]=(20,180)
+obj[0,2,601]=(140,220)
+obj[0,2,602]=(20,100)
+obj[0,2,603]=(-60,100)
+obj[0,2,604]=(100,300)
+obj[0,2,605]=(180,300)
+obj[0,2,606]=(100,340)
+obj[0,2,607]=(180,340)
+obj[0,2,608]=(260,180)
+obj[0,2,609]=(340,180)
+obj[0,2,610]=(460,220)
+obj[0,2,611]=(340,100)
+obj[0,2,612]=(260,100)
+obj[0,2,613]=(420,300)
+obj[0,2,614]=(500,300)
+obj[0,2,615]=(420,340)
+obj[0,2,616]=(500,340)
+obj[0,2,617]=(580,180)
+obj[0,2,618]=(660,180)
+obj[0,2,619]=(780,220)
+obj[0,2,620]=(660,100)
+obj[0,2,621]=(580,100)
+obj[0,2,622]=(740,300)
+obj[0,2,623]=(820,300)
+obj[0,2,624]=(740,340)
+obj[0,2,625]=(820,340)
+obj[0,2,626]=(900,180)
+obj[0,2,627]=(980,180)
+obj[0,2,628]=(1100,220)
+obj[0,2,629]=(980,100)
+obj[0,2,630]=(900,100)
+obj[0,2,631]=(1060,300)
+obj[0,2,632]=(1140,300)
+obj[0,2,633]=(1060,340)
+obj[0,2,634]=(1140,340)
+obj[0,2,635]=(-1180,260)
+obj[0,2,636]=(-1220,340)
+obj[0,2,637]=(-1140,340)
+obj[0,2,638]=(-1220,380)
+obj[0,2,639]=(-1140,380)
+obj[0,2,640]=(-1220,420)
+obj[0,2,641]=(-1140,420)
+obj[0,2,642]=(-1220,460)
+obj[0,2,643]=(-1140,460)
+obj[0,2,644]=(-1180,140)
+obj[0,2,645]=(-1100,20)
+obj[0,2,646]=(-1100,100)
+obj[0,2,647]=(-1100,-100)
+obj[0,2,648]=(-1100,-20)
+obj[0,2,649]=(-1020,-60)
+obj[0,2,650]=(-1020,60)
+obj[0,2,651]=(3780,180)
+obj[0,2,652]=(3860,180)
+obj[0,2,653]=(3980,220)
+obj[0,2,654]=(3860,100)
+obj[0,2,655]=(3780,100)
+obj[0,2,656]=(3940,300)
+obj[0,2,657]=(4020,300)
+obj[0,2,658]=(3940,340)
+obj[0,2,659]=(4020,340)
+obj[0,2,660]=(1220,180)
+obj[0,2,661]=(1300,180)
+obj[0,2,662]=(1420,220)
+obj[0,2,663]=(1300,100)
+obj[0,2,664]=(1220,100)
+obj[0,2,665]=(1380,300)
+obj[0,2,666]=(1460,300)
+obj[0,2,667]=(1380,340)
+obj[0,2,668]=(1460,340)
+obj[0,2,669]=(1540,180)
+obj[0,2,670]=(1620,180)
+obj[0,2,671]=(1740,220)
+obj[0,2,672]=(1620,100)
+obj[0,2,673]=(1540,100)
+obj[0,2,674]=(1700,300)
+obj[0,2,675]=(1780,300)
+obj[0,2,676]=(1700,340)
+obj[0,2,677]=(1780,340)
+obj[0,2,678]=(1860,180)
+obj[0,2,679]=(1940,180)
+obj[0,2,680]=(2060,220)
+obj[0,2,681]=(1940,100)
+obj[0,2,682]=(1860,100)
+obj[0,2,683]=(2020,300)
+obj[0,2,684]=(2100,300)
+obj[0,2,685]=(2020,340)
+obj[0,2,686]=(2100,340)
+obj[0,2,687]=(2180,180)
+obj[0,2,688]=(2260,180)
+obj[0,2,689]=(2380,220)
+obj[0,2,690]=(2260,100)
+obj[0,2,691]=(2180,100)
+obj[0,2,692]=(2340,300)
+obj[0,2,693]=(2420,300)
+obj[0,2,694]=(2340,340)
+obj[0,2,695]=(2420,340)
+obj[0,2,696]=(2500,180)
+obj[0,2,697]=(2580,180)
+obj[0,2,698]=(2700,220)
+obj[0,2,699]=(2580,100)
+obj[0,2,700]=(2500,100)
+obj[0,2,701]=(2660,300)
+obj[0,2,702]=(2740,300)
+obj[0,2,703]=(2660,340)
+obj[0,2,704]=(2740,340)
+obj[0,2,705]=(2820,180)
+obj[0,2,706]=(2900,180)
+obj[0,2,707]=(3020,220)
+obj[0,2,708]=(2900,100)
+obj[0,2,709]=(2820,100)
+obj[0,2,710]=(2980,300)
+obj[0,2,711]=(3060,300)
+obj[0,2,712]=(2980,340)
+obj[0,2,713]=(3060,340)
+obj[0,2,714]=(3140,180)
+obj[0,2,715]=(3220,180)
+obj[0,2,716]=(3340,220)
+obj[0,2,717]=(3220,100)
+obj[0,2,718]=(3140,100)
+obj[0,2,719]=(3300,300)
+obj[0,2,720]=(3380,300)
+obj[0,2,721]=(3300,340)
+obj[0,2,722]=(3380,340)
+obj[0,2,723]=(3460,180)
+obj[0,2,724]=(3540,180)
+obj[0,2,725]=(3660,220)
+obj[0,2,726]=(3540,100)
+obj[0,2,727]=(3460,100)
+obj[0,2,728]=(3620,300)
+obj[0,2,729]=(3700,300)
+obj[0,2,730]=(3620,340)
+obj[0,2,731]=(3700,340)
+obj[0,2,732]=(-1220,500)
+obj[0,2,733]=(-1140,500)
+obj[0,3,953]=(-980,220)
+obj[0,3,954]=(-1220,-20)
+obj[0,3,955]=(-1220,100)
+obj[0,4,961]=(4140,100)
+obj[0,4,962]=(4140,140)
+obj[0,4,963]=(4140,180)
+obj[0,1,249]=(4100,420)
+obj[0,1,250]=(4180,420)
+obj[0,1,251]=(4260,420)
+obj[0,1,252]=(4260,460)
+obj[0,1,253]=(4180,460)
+obj[0,1,254]=(4100,460)
+obj[0,1,255]=(4100,500)
+obj[0,1,256]=(4180,500)
+obj[0,1,257]=(4260,500)
+obj[0,1,258]=(4260,540)
+obj[0,1,259]=(4180,540)
+obj[0,1,260]=(4100,540)
+obj[0,1,261]=(4260,580)
+obj[0,1,262]=(4180,580)
+obj[0,1,263]=(4100,580)
+obj[0,2,734]=(4180,340)
+obj[0,2,735]=(4140,420)
+obj[0,2,736]=(4220,420)
+obj[0,2,737]=(4140,460)
+obj[0,2,738]=(4220,460)
+obj[0,2,739]=(4140,500)
+obj[0,2,740]=(4220,500)
+obj[0,2,741]=(4140,540)
+obj[0,2,742]=(4220,540)
+obj[0,2,743]=(4140,580)
+obj[0,2,744]=(4220,580)
+obj[0,2,745]=(4260,220)
+obj[0,2,746]=(4260,260)
+obj[0,1,264]=(4220,260)
+obj[0,1,265]=(4300,220)
+obj[0,1,266]=(4300,260)
+obj[0,4,964]=(4340,260)
+obj[0,1,267]=(-1940,1300)
+obj[0,1,268]=(-1860,1300)
+obj[0,1,269]=(-1780,1300)
+obj[0,1,270]=(-1780,1340)
+obj[0,1,271]=(-1860,1340)
+obj[0,1,272]=(-1940,1340)
+obj[0,1,273]=(-1940,1380)
+obj[0,1,274]=(-1860,1380)
+obj[0,1,275]=(-1780,1380)
+obj[0,1,276]=(-1780,1420)
+obj[0,1,277]=(-1860,1420)
+obj[0,1,278]=(-1940,1420)
+obj[0,1,279]=(-1860,1140)
+obj[0,1,280]=(-1780,1460)
+obj[0,1,281]=(-1860,1460)
+obj[0,1,282]=(-1940,1460)
+obj[0,2,747]=(-1860,1220)
+obj[0,2,748]=(-1900,1300)
+obj[0,2,749]=(-1820,1300)
+obj[0,2,750]=(-1900,1340)
+obj[0,2,751]=(-1820,1340)
+obj[0,2,752]=(-1900,1380)
+obj[0,2,753]=(-1820,1380)
+obj[0,2,754]=(-1900,1420)
+obj[0,2,755]=(-1820,1420)
+obj[0,2,756]=(-1860,1100)
+obj[0,2,757]=(-1900,1460)
+obj[0,2,758]=(-1820,1460)
+obj[0,3,956]=(-1940,860)
+obj[0,3,957]=(-1940,980)
+obj[0,1,283]=(-1820,860)
+obj[0,2,759]=(-1780,860)
+obj[0,2,760]=(-1780,900)
+obj[0,1,284]=(-1820,900)
+obj[0,1,285]=(-1740,860)
+obj[0,1,286]=(-1740,900)
+obj[0,1,287]=(-1820,980)
+obj[0,2,761]=(-1780,980)
+obj[0,2,762]=(-1780,1020)
+obj[0,1,288]=(-1820,1020)
+obj[0,1,289]=(-1740,980)
+obj[0,1,290]=(-1740,1020)
+obj[0,2,763]=(-1260,-100)
+obj[0,2,764]=(-1260,20)
+obj[0,1,291]=(-900,1460)
+obj[0,1,292]=(-900,1500)
+obj[0,1,293]=(-900,1420)
+obj[0,1,294]=(-900,1380)
+obj[0,1,295]=(-740,1460)
+obj[0,1,296]=(-660,1460)
+obj[0,1,297]=(-580,1460)
+obj[0,1,298]=(-580,1500)
+obj[0,1,299]=(-580,1420)
+obj[0,1,300]=(-580,1380)
+obj[0,1,301]=(-740,1380)
+obj[0,1,302]=(-660,1380)
+obj[0,1,303]=(-900,1580)
+obj[0,1,304]=(-820,1580)
+obj[0,1,305]=(-740,1580)
+obj[0,1,306]=(-740,1620)
+obj[0,1,307]=(-820,1620)
+obj[0,1,308]=(-900,1620)
+obj[0,1,309]=(-580,1580)
+obj[0,1,310]=(-500,1580)
+obj[0,1,311]=(-420,1580)
+obj[0,1,312]=(-420,1620)
+obj[0,1,313]=(-500,1620)
+obj[0,1,314]=(-580,1620)
+obj[0,1,315]=(-420,1460)
+obj[0,1,316]=(-340,1460)
+obj[0,1,317]=(-260,1460)
+obj[0,1,318]=(-260,1500)
+obj[0,1,319]=(-260,1420)
+obj[0,1,320]=(-260,1380)
+obj[0,1,321]=(-420,1380)
+obj[0,1,322]=(-340,1380)
+obj[0,1,323]=(-260,1580)
+obj[0,1,324]=(-180,1580)
+obj[0,1,325]=(-100,1580)
+obj[0,1,326]=(-100,1620)
+obj[0,1,327]=(-180,1620)
+obj[0,1,328]=(-260,1620)
+obj[0,1,329]=(-100,1460)
+obj[0,1,330]=(-20,1460)
+obj[0,1,331]=(60,1460)
+obj[0,1,332]=(60,1500)
+obj[0,1,333]=(60,1420)
+obj[0,1,334]=(60,1380)
+obj[0,1,335]=(-100,1380)
+obj[0,1,336]=(-20,1380)
+obj[0,1,337]=(60,1580)
+obj[0,1,338]=(140,1580)
+obj[0,1,339]=(220,1580)
+obj[0,1,340]=(220,1620)
+obj[0,1,341]=(140,1620)
+obj[0,1,342]=(60,1620)
+obj[0,1,343]=(220,1460)
+obj[0,1,344]=(300,1460)
+obj[0,1,345]=(380,1460)
+obj[0,1,346]=(380,1500)
+obj[0,1,347]=(380,1420)
+obj[0,1,348]=(380,1380)
+obj[0,1,349]=(220,1380)
+obj[0,1,350]=(300,1380)
+obj[0,1,351]=(380,1580)
+obj[0,1,352]=(460,1580)
+obj[0,1,353]=(540,1580)
+obj[0,1,354]=(540,1620)
+obj[0,1,355]=(460,1620)
+obj[0,1,356]=(380,1620)
+obj[0,1,357]=(540,1460)
+obj[0,1,358]=(620,1460)
+obj[0,1,359]=(700,1460)
+obj[0,1,360]=(700,1500)
+obj[0,1,361]=(700,1420)
+obj[0,1,362]=(700,1380)
+obj[0,1,363]=(540,1380)
+obj[0,1,364]=(620,1380)
+obj[0,1,365]=(700,1580)
+obj[0,1,366]=(780,1580)
+obj[0,1,367]=(860,1580)
+obj[0,1,368]=(860,1620)
+obj[0,1,369]=(780,1620)
+obj[0,1,370]=(700,1620)
+obj[0,1,371]=(860,1460)
+obj[0,1,372]=(940,1460)
+obj[0,1,373]=(1020,1460)
+obj[0,1,374]=(1020,1500)
+obj[0,1,375]=(1020,1420)
+obj[0,1,376]=(1020,1380)
+obj[0,1,377]=(860,1380)
+obj[0,1,378]=(940,1380)
+obj[0,1,379]=(1020,1580)
+obj[0,1,380]=(1100,1580)
+obj[0,1,381]=(1180,1580)
+obj[0,1,382]=(1180,1620)
+obj[0,1,383]=(1100,1620)
+obj[0,1,384]=(1020,1620)
+obj[0,1,385]=(-1260,1620)
+obj[0,1,386]=(-1180,1620)
+obj[0,1,387]=(-1100,1620)
+obj[0,1,388]=(-1100,1660)
+obj[0,1,389]=(-1180,1660)
+obj[0,1,390]=(-1260,1660)
+obj[0,1,391]=(-1260,1700)
+obj[0,1,392]=(-1180,1700)
+obj[0,1,393]=(-1100,1700)
+obj[0,1,394]=(-1100,1740)
+obj[0,1,395]=(-1180,1740)
+obj[0,1,396]=(-1260,1740)
+obj[0,1,397]=(-1180,1460)
+obj[0,1,398]=(-1140,1300)
+obj[0,1,399]=(-1140,1380)
+obj[0,1,400]=(-1060,1340)
+obj[0,1,401]=(-1140,1340)
+obj[0,1,402]=(-1140,1180)
+obj[0,1,403]=(-1140,1260)
+obj[0,1,404]=(-1060,1220)
+obj[0,1,405]=(-1140,1220)
+obj[0,1,406]=(3740,1460)
+obj[0,1,407]=(3820,1460)
+obj[0,1,408]=(3900,1460)
+obj[0,1,409]=(3900,1500)
+obj[0,1,410]=(3900,1420)
+obj[0,1,411]=(3900,1380)
+obj[0,1,412]=(3740,1380)
+obj[0,1,413]=(3820,1380)
+obj[0,1,414]=(4060,1460)
+obj[0,1,415]=(4220,1500)
+obj[0,1,416]=(4060,1420)
+obj[0,1,417]=(4060,1380)
+obj[0,1,418]=(3900,1580)
+obj[0,1,419]=(3980,1580)
+obj[0,1,420]=(4060,1580)
+obj[0,1,421]=(4060,1620)
+obj[0,1,422]=(3980,1620)
+obj[0,1,423]=(3900,1620)
+obj[0,1,424]=(1180,1460)
+obj[0,1,425]=(1260,1460)
+obj[0,1,426]=(1340,1460)
+obj[0,1,427]=(1340,1500)
+obj[0,1,428]=(1340,1420)
+obj[0,1,429]=(1340,1380)
+obj[0,1,430]=(1180,1380)
+obj[0,1,431]=(1260,1380)
+obj[0,1,432]=(1340,1580)
+obj[0,1,433]=(1420,1580)
+obj[0,1,434]=(1500,1580)
+obj[0,1,435]=(1500,1620)
+obj[0,1,436]=(1420,1620)
+obj[0,1,437]=(1340,1620)
+obj[0,1,438]=(1500,1460)
+obj[0,1,439]=(1580,1460)
+obj[0,1,440]=(1660,1460)
+obj[0,1,441]=(1660,1500)
+obj[0,1,442]=(1660,1420)
+obj[0,1,443]=(1660,1380)
+obj[0,1,444]=(1500,1380)
+obj[0,1,445]=(1580,1380)
+obj[0,1,446]=(1660,1580)
+obj[0,1,447]=(1740,1580)
+obj[0,1,448]=(1820,1580)
+obj[0,1,449]=(1820,1620)
+obj[0,1,450]=(1740,1620)
+obj[0,1,451]=(1660,1620)
+obj[0,1,452]=(1820,1460)
+obj[0,1,453]=(1900,1460)
+obj[0,1,454]=(1980,1460)
+obj[0,1,455]=(1980,1500)
+obj[0,1,456]=(1980,1420)
+obj[0,1,457]=(1980,1380)
+obj[0,1,458]=(1820,1380)
+obj[0,1,459]=(1900,1380)
+obj[0,1,460]=(1980,1580)
+obj[0,1,461]=(2060,1580)
+obj[0,1,462]=(2140,1580)
+obj[0,1,463]=(2140,1620)
+obj[0,1,464]=(2060,1620)
+obj[0,1,465]=(1980,1620)
+obj[0,1,466]=(2140,1460)
+obj[0,1,467]=(2220,1460)
+obj[0,1,468]=(2300,1460)
+obj[0,1,469]=(2300,1500)
+obj[0,1,470]=(2300,1420)
+obj[0,1,471]=(2300,1380)
+obj[0,1,472]=(2140,1380)
+obj[0,1,473]=(2220,1380)
+obj[0,1,474]=(2300,1580)
+obj[0,1,475]=(2380,1580)
+obj[0,1,476]=(2460,1580)
+obj[0,1,477]=(2460,1620)
+obj[0,1,478]=(2380,1620)
+obj[0,1,479]=(2300,1620)
+obj[0,1,480]=(2460,1460)
+obj[0,1,481]=(2540,1460)
+obj[0,1,482]=(2620,1460)
+obj[0,1,483]=(2620,1500)
+obj[0,1,484]=(2620,1420)
+obj[0,1,485]=(2620,1380)
+obj[0,1,486]=(2460,1380)
+obj[0,1,487]=(2540,1380)
+obj[0,1,488]=(2620,1580)
+obj[0,1,489]=(2700,1580)
+obj[0,1,490]=(2780,1580)
+obj[0,1,491]=(2780,1620)
+obj[0,1,492]=(2700,1620)
+obj[0,1,493]=(2620,1620)
+obj[0,1,494]=(2780,1460)
+obj[0,1,495]=(2860,1460)
+obj[0,1,496]=(2940,1460)
+obj[0,1,497]=(2940,1500)
+obj[0,1,498]=(2940,1420)
+obj[0,1,499]=(2940,1380)
+obj[0,1,500]=(2780,1380)
+obj[0,1,501]=(2860,1380)
+obj[0,1,502]=(2940,1580)
+obj[0,1,503]=(3020,1580)
+obj[0,1,504]=(3100,1580)
+obj[0,1,505]=(3100,1620)
+obj[0,1,506]=(3020,1620)
+obj[0,1,507]=(2940,1620)
+obj[0,1,508]=(3100,1460)
+obj[0,1,509]=(3180,1460)
+obj[0,1,510]=(3260,1460)
+obj[0,1,511]=(3260,1500)
+obj[0,1,512]=(3260,1420)
+obj[0,1,513]=(3260,1380)
+obj[0,1,514]=(3100,1380)
+obj[0,1,515]=(3180,1380)
+obj[0,1,516]=(3260,1580)
+obj[0,1,517]=(3340,1580)
+obj[0,1,518]=(3420,1580)
+obj[0,1,519]=(3420,1620)
+obj[0,1,520]=(3340,1620)
+obj[0,1,521]=(3260,1620)
+obj[0,1,522]=(3420,1460)
+obj[0,1,523]=(3500,1460)
+obj[0,1,524]=(3580,1460)
+obj[0,1,525]=(3580,1500)
+obj[0,1,526]=(3580,1420)
+obj[0,1,527]=(3580,1380)
+obj[0,1,528]=(3420,1380)
+obj[0,1,529]=(3500,1380)
+obj[0,1,530]=(3580,1580)
+obj[0,1,531]=(3660,1580)
+obj[0,1,532]=(3740,1580)
+obj[0,1,533]=(3740,1620)
+obj[0,1,534]=(3660,1620)
+obj[0,1,535]=(3580,1620)
+obj[0,1,536]=(-1100,1780)
+obj[0,1,537]=(-1180,1780)
+obj[0,1,538]=(-1260,1780)
+obj[0,2,765]=(-820,1500)
+obj[0,2,766]=(-700,1460)
+obj[0,2,767]=(-620,1460)
+obj[0,2,768]=(-500,1500)
+obj[0,2,769]=(-620,1380)
+obj[0,2,770]=(-700,1380)
+obj[0,2,771]=(-860,1580)
+obj[0,2,772]=(-780,1580)
+obj[0,2,773]=(-860,1620)
+obj[0,2,774]=(-780,1620)
+obj[0,2,775]=(-540,1580)
+obj[0,2,776]=(-460,1580)
+obj[0,2,777]=(-540,1620)
+obj[0,2,778]=(-460,1620)
+obj[0,2,779]=(-380,1460)
+obj[0,2,780]=(-300,1460)
+obj[0,2,781]=(-180,1500)
+obj[0,2,782]=(-300,1380)
+obj[0,2,783]=(-380,1380)
+obj[0,2,784]=(-220,1580)
+obj[0,2,785]=(-140,1580)
+obj[0,2,786]=(-220,1620)
+obj[0,2,787]=(-140,1620)
+obj[0,2,788]=(-60,1460)
+obj[0,2,789]=(20,1460)
+obj[0,2,790]=(140,1500)
+obj[0,2,791]=(20,1380)
+obj[0,2,792]=(-60,1380)
+obj[0,2,793]=(100,1580)
+obj[0,2,794]=(180,1580)
+obj[0,2,795]=(100,1620)
+obj[0,2,796]=(180,1620)
+obj[0,2,797]=(260,1460)
+obj[0,2,798]=(340,1460)
+obj[0,2,799]=(460,1500)
+obj[0,2,800]=(340,1380)
+obj[0,2,801]=(260,1380)
+obj[0,2,802]=(420,1580)
+obj[0,2,803]=(500,1580)
+obj[0,2,804]=(420,1620)
+obj[0,2,805]=(500,1620)
+obj[0,2,806]=(580,1460)
+obj[0,2,807]=(660,1460)
+obj[0,2,808]=(780,1500)
+obj[0,2,809]=(660,1380)
+obj[0,2,810]=(580,1380)
+obj[0,2,811]=(740,1580)
+obj[0,2,812]=(820,1580)
+obj[0,2,813]=(740,1620)
+obj[0,2,814]=(820,1620)
+obj[0,2,815]=(900,1460)
+obj[0,2,816]=(980,1460)
+obj[0,2,817]=(1100,1500)
+obj[0,2,818]=(980,1380)
+obj[0,2,819]=(900,1380)
+obj[0,2,820]=(1060,1580)
+obj[0,2,821]=(1140,1580)
+obj[0,2,822]=(1060,1620)
+obj[0,2,823]=(1140,1620)
+obj[0,2,824]=(-1180,1540)
+obj[0,2,825]=(-1220,1620)
+obj[0,2,826]=(-1140,1620)
+obj[0,2,827]=(-1220,1660)
+obj[0,2,828]=(-1140,1660)
+obj[0,2,829]=(-1220,1700)
+obj[0,2,830]=(-1140,1700)
+obj[0,2,831]=(-1220,1740)
+obj[0,2,832]=(-1140,1740)
+obj[0,2,833]=(-1180,1420)
+obj[0,2,834]=(-1100,1300)
+obj[0,2,835]=(-1100,1380)
+obj[0,2,836]=(-1100,1180)
+obj[0,2,837]=(-1100,1260)
+obj[0,2,838]=(-1020,1220)
+obj[0,2,839]=(-1020,1340)
+obj[0,2,840]=(3780,1460)
+obj[0,2,841]=(3860,1460)
+obj[0,2,842]=(3980,1500)
+obj[0,2,843]=(3860,1380)
+obj[0,2,844]=(3780,1380)
+obj[0,2,845]=(3940,1580)
+obj[0,2,846]=(4020,1580)
+obj[0,2,847]=(3940,1620)
+obj[0,2,848]=(4020,1620)
+obj[0,2,849]=(1220,1460)
+obj[0,2,850]=(1300,1460)
+obj[0,2,851]=(1420,1500)
+obj[0,2,852]=(1300,1380)
+obj[0,2,853]=(1220,1380)
+obj[0,2,854]=(1380,1580)
+obj[0,2,855]=(1460,1580)
+obj[0,2,856]=(1380,1620)
+obj[0,2,857]=(1460,1620)
+obj[0,2,858]=(1540,1460)
+obj[0,2,859]=(1620,1460)
+obj[0,2,860]=(1740,1500)
+obj[0,2,861]=(1620,1380)
+obj[0,2,862]=(1540,1380)
+obj[0,2,863]=(1700,1580)
+obj[0,2,864]=(1780,1580)
+obj[0,2,865]=(1700,1620)
+obj[0,2,866]=(1780,1620)
+obj[0,2,867]=(1860,1460)
+obj[0,2,868]=(1940,1460)
+obj[0,2,869]=(2060,1500)
+obj[0,2,870]=(1940,1380)
+obj[0,2,871]=(1860,1380)
+obj[0,2,872]=(2020,1580)
+obj[0,2,873]=(2100,1580)
+obj[0,2,874]=(2020,1620)
+obj[0,2,875]=(2100,1620)
+obj[0,2,876]=(2180,1460)
+obj[0,2,877]=(2260,1460)
+obj[0,2,878]=(2380,1500)
+obj[0,2,879]=(2260,1380)
+obj[0,2,880]=(2180,1380)
+obj[0,2,881]=(2340,1580)
+obj[0,2,882]=(2420,1580)
+obj[0,2,883]=(2340,1620)
+obj[0,2,884]=(2420,1620)
+obj[0,2,885]=(2500,1460)
+obj[0,2,886]=(2580,1460)
+obj[0,2,887]=(2700,1500)
+obj[0,2,888]=(2580,1380)
+obj[0,2,889]=(2500,1380)
+obj[0,2,890]=(2660,1580)
+obj[0,2,891]=(2740,1580)
+obj[0,2,892]=(2660,1620)
+obj[0,2,893]=(2740,1620)
+obj[0,2,894]=(2820,1460)
+obj[0,2,895]=(2900,1460)
+obj[0,2,896]=(3020,1500)
+obj[0,2,897]=(2900,1380)
+obj[0,2,898]=(2820,1380)
+obj[0,2,899]=(2980,1580)
+obj[0,2,900]=(3060,1580)
+obj[0,2,901]=(2980,1620)
+obj[0,2,902]=(3060,1620)
+obj[0,2,903]=(3140,1460)
+obj[0,2,904]=(3220,1460)
+obj[0,2,905]=(3340,1500)
+obj[0,2,906]=(3220,1380)
+obj[0,2,907]=(3140,1380)
+obj[0,2,908]=(3300,1580)
+obj[0,2,909]=(3380,1580)
+obj[0,2,910]=(3300,1620)
+obj[0,2,911]=(3380,1620)
+obj[0,2,912]=(3460,1460)
+obj[0,2,913]=(3540,1460)
+obj[0,2,914]=(3660,1500)
+obj[0,2,915]=(3540,1380)
+obj[0,2,916]=(3460,1380)
+obj[0,2,917]=(3620,1580)
+obj[0,2,918]=(3700,1580)
+obj[0,2,919]=(3620,1620)
+obj[0,2,920]=(3700,1620)
+obj[0,2,921]=(-1220,1780)
+obj[0,2,922]=(-1140,1780)
+obj[0,3,958]=(-980,1500)
+obj[0,3,959]=(-1220,1260)
+obj[0,3,960]=(-1220,1380)
+obj[0,4,965]=(4140,1380)
+obj[0,4,966]=(4140,1420)
+obj[0,4,967]=(4140,1460)
+obj[0,1,539]=(4100,1700)
+obj[0,1,540]=(4180,1700)
+obj[0,1,541]=(4260,1700)
+obj[0,1,542]=(4260,1740)
+obj[0,1,543]=(4180,1740)
+obj[0,1,544]=(4100,1740)
+obj[0,1,545]=(4100,1780)
+obj[0,1,546]=(4180,1780)
+obj[0,1,547]=(4260,1780)
+obj[0,1,548]=(4260,1820)
+obj[0,1,549]=(4180,1820)
+obj[0,1,550]=(4100,1820)
+obj[0,1,551]=(4260,1860)
+obj[0,1,552]=(4180,1860)
+obj[0,1,553]=(4100,1860)
+obj[0,2,923]=(4180,1620)
+obj[0,2,924]=(4140,1700)
+obj[0,2,925]=(4220,1700)
+obj[0,2,926]=(4140,1740)
+obj[0,2,927]=(4220,1740)
+obj[0,2,928]=(4140,1780)
+obj[0,2,929]=(4220,1780)
+obj[0,2,930]=(4140,1820)
+obj[0,2,931]=(4220,1820)
+obj[0,2,932]=(4140,1860)
+obj[0,2,933]=(4220,1860)
+obj[0,2,934]=(4260,1500)
+obj[0,2,935]=(4260,1540)
+obj[0,1,554]=(4220,1540)
+obj[0,1,555]=(4300,1500)
+obj[0,1,556]=(4300,1540)
+obj[0,4,968]=(4340,1540)
+obj[0,2,936]=(-1260,1180)
+obj[0,2,937]=(-1260,1300)
+obj[0,1,557]=(4940,860)
+obj[0,1,558]=(5020,860)
+obj[0,1,559]=(5100,860)
+obj[0,1,560]=(5100,900)
+obj[0,1,561]=(5020,900)
+obj[0,1,562]=(4940,900)
+obj[0,1,563]=(4940,940)
+obj[0,1,564]=(5020,940)
+obj[0,1,565]=(5100,940)
+obj[0,1,566]=(5100,980)
+obj[0,1,567]=(5020,980)
+obj[0,1,568]=(4940,980)
+obj[0,1,569]=(5100,1020)
+obj[0,1,570]=(5020,1020)
+obj[0,1,571]=(4940,1020)
+obj[0,2,938]=(5020,780)
+obj[0,2,939]=(4980,860)
+obj[0,2,940]=(5060,860)
+obj[0,2,941]=(4980,900)
+obj[0,2,942]=(5060,900)
+obj[0,2,943]=(4980,940)
+obj[0,2,944]=(5060,940)
+obj[0,2,945]=(4980,980)
+obj[0,2,946]=(5060,980)
+obj[0,2,947]=(4980,1020)
+obj[0,2,948]=(5060,1020)
+obj[0,2,949]=(5100,540)
+obj[0,2,950]=(5100,620)
+obj[0,1,572]=(5060,540)
+obj[0,1,573]=(5060,580)
+obj[0,1,574]=(5060,620)
+obj[0,1,575]=(5140,580)
+obj[0,4,969]=(5220,580)
+obj[0,2,951]=(4340,1500)
+obj[0,2,952]=(4340,220)
+}
+.section[token]{
+/tset[PlaceID]=(color,value)
+tset[6]=(6,0)
+tset[7]=(5,0)
+tset[10]=(5,0)
+tset[12]=(6,0)
+tset[14]=(6,0)
+tset[15]=(5,0)
+tset[16]=(5,0)
+tset[17]=(6,0)
+tset[20]=(6,0)
+tset[21]=(5,0)
+tset[22]=(5,0)
+tset[23]=(6,0)
+tset[26]=(6,0)
+tset[27]=(5,0)
+tset[30]=(5,0)
+tset[32]=(6,0)
+tset[34]=(6,0)
+tset[35]=(5,0)
+tset[36]=(5,0)
+tset[37]=(6,0)
+tset[40]=(6,0)
+tset[41]=(5,0)
+tset[44]=(5,0)
+tset[46]=(6,0)
+tset[48]=(6,0)
+tset[49]=(5,0)
+tset[50]=(5,0)
+tset[51]=(6,0)
+tset[54]=(6,0)
+tset[55]=(5,0)
+tset[58]=(5,0)
+tset[60]=(6,0)
+tset[62]=(6,0)
+tset[63]=(5,0)
+tset[64]=(5,0)
+tset[65]=(6,0)
+tset[68]=(6,0)
+tset[69]=(5,0)
+tset[72]=(5,0)
+tset[74]=(6,0)
+tset[76]=(6,0)
+tset[77]=(5,0)
+tset[78]=(5,0)
+tset[79]=(6,0)
+tset[82]=(6,0)
+tset[83]=(5,0)
+tset[86]=(5,0)
+tset[88]=(6,0)
+tset[90]=(6,0)
+tset[91]=(5,0)
+tset[92]=(5,0)
+tset[93]=(6,0)
+tset[96]=(6,0)
+tset[97]=(5,0)
+tset[98]=(5,0)
+tset[99]=(6,0)
+tset[102]=(6,0)
+tset[103]=(5,0)
+tset[104]=(5,0)
+tset[105]=(6,0)
+tset[117]=(6,0)
+tset[118]=(5,0)
+tset[121]=(5,0)
+tset[123]=(6,0)
+tset[129]=(6,0)
+tset[130]=(5,0)
+tset[131]=(5,0)
+tset[132]=(6,0)
+tset[135]=(6,0)
+tset[136]=(5,0)
+tset[139]=(5,0)
+tset[141]=(6,0)
+tset[143]=(6,0)
+tset[144]=(5,0)
+tset[145]=(5,0)
+tset[146]=(6,0)
+tset[149]=(6,0)
+tset[150]=(5,0)
+tset[153]=(5,0)
+tset[155]=(6,0)
+tset[157]=(6,0)
+tset[158]=(5,0)
+tset[159]=(5,0)
+tset[160]=(6,0)
+tset[163]=(6,0)
+tset[164]=(5,0)
+tset[167]=(5,0)
+tset[169]=(6,0)
+tset[171]=(6,0)
+tset[172]=(5,0)
+tset[173]=(5,0)
+tset[174]=(6,0)
+tset[177]=(6,0)
+tset[178]=(5,0)
+tset[181]=(5,0)
+tset[183]=(6,0)
+tset[185]=(6,0)
+tset[186]=(5,0)
+tset[187]=(5,0)
+tset[188]=(6,0)
+tset[191]=(6,0)
+tset[192]=(5,0)
+tset[195]=(5,0)
+tset[197]=(6,0)
+tset[199]=(6,0)
+tset[200]=(5,0)
+tset[201]=(5,0)
+tset[202]=(6,0)
+tset[205]=(6,0)
+tset[206]=(5,0)
+tset[209]=(5,0)
+tset[211]=(6,0)
+tset[213]=(6,0)
+tset[214]=(5,0)
+tset[215]=(5,0)
+tset[216]=(6,0)
+tset[219]=(6,0)
+tset[220]=(5,0)
+tset[223]=(5,0)
+tset[225]=(6,0)
+tset[227]=(6,0)
+tset[228]=(5,0)
+tset[229]=(5,0)
+tset[230]=(6,0)
+tset[233]=(6,0)
+tset[234]=(5,0)
+tset[237]=(5,0)
+tset[239]=(6,0)
+tset[241]=(6,0)
+tset[242]=(5,0)
+tset[243]=(5,0)
+tset[244]=(6,0)
+tset[246]=(5,0)
+tset[247]=(6,0)
+tset[250]=(6,0)
+tset[251]=(5,0)
+tset[252]=(5,0)
+tset[253]=(6,0)
+tset[256]=(6,0)
+tset[257]=(5,0)
+tset[258]=(5,0)
+tset[259]=(6,0)
+tset[261]=(5,0)
+tset[262]=(6,0)
+tset[268]=(6,0)
+tset[269]=(5,0)
+tset[270]=(5,0)
+tset[271]=(6,0)
+tset[274]=(6,0)
+tset[275]=(5,0)
+tset[276]=(5,0)
+tset[277]=(6,0)
+tset[280]=(5,0)
+tset[281]=(6,0)
+tset[296]=(6,0)
+tset[297]=(5,0)
+tset[300]=(5,0)
+tset[302]=(6,0)
+tset[304]=(6,0)
+tset[305]=(5,0)
+tset[306]=(5,0)
+tset[307]=(6,0)
+tset[310]=(6,0)
+tset[311]=(5,0)
+tset[312]=(5,0)
+tset[313]=(6,0)
+tset[316]=(6,0)
+tset[317]=(5,0)
+tset[320]=(5,0)
+tset[322]=(6,0)
+tset[324]=(6,0)
+tset[325]=(5,0)
+tset[326]=(5,0)
+tset[327]=(6,0)
+tset[330]=(6,0)
+tset[331]=(5,0)
+tset[334]=(5,0)
+tset[336]=(6,0)
+tset[338]=(6,0)
+tset[339]=(5,0)
+tset[340]=(5,0)
+tset[341]=(6,0)
+tset[344]=(6,0)
+tset[345]=(5,0)
+tset[348]=(5,0)
+tset[350]=(6,0)
+tset[352]=(6,0)
+tset[353]=(5,0)
+tset[354]=(5,0)
+tset[355]=(6,0)
+tset[358]=(6,0)
+tset[359]=(5,0)
+tset[362]=(5,0)
+tset[364]=(6,0)
+tset[366]=(6,0)
+tset[367]=(5,0)
+tset[368]=(5,0)
+tset[369]=(6,0)
+tset[372]=(6,0)
+tset[373]=(5,0)
+tset[376]=(5,0)
+tset[378]=(6,0)
+tset[380]=(6,0)
+tset[381]=(5,0)
+tset[382]=(5,0)
+tset[383]=(6,0)
+tset[386]=(6,0)
+tset[387]=(5,0)
+tset[388]=(5,0)
+tset[389]=(6,0)
+tset[392]=(6,0)
+tset[393]=(5,0)
+tset[394]=(5,0)
+tset[395]=(6,0)
+tset[407]=(6,0)
+tset[408]=(5,0)
+tset[411]=(5,0)
+tset[413]=(6,0)
+tset[419]=(6,0)
+tset[420]=(5,0)
+tset[421]=(5,0)
+tset[422]=(6,0)
+tset[425]=(6,0)
+tset[426]=(5,0)
+tset[429]=(5,0)
+tset[431]=(6,0)
+tset[433]=(6,0)
+tset[434]=(5,0)
+tset[435]=(5,0)
+tset[436]=(6,0)
+tset[439]=(6,0)
+tset[440]=(5,0)
+tset[443]=(5,0)
+tset[445]=(6,0)
+tset[447]=(6,0)
+tset[448]=(5,0)
+tset[449]=(5,0)
+tset[450]=(6,0)
+tset[453]=(6,0)
+tset[454]=(5,0)
+tset[457]=(5,0)
+tset[459]=(6,0)
+tset[461]=(6,0)
+tset[462]=(5,0)
+tset[463]=(5,0)
+tset[464]=(6,0)
+tset[467]=(6,0)
+tset[468]=(5,0)
+tset[471]=(5,0)
+tset[473]=(6,0)
+tset[475]=(6,0)
+tset[476]=(5,0)
+tset[477]=(5,0)
+tset[478]=(6,0)
+tset[481]=(6,0)
+tset[482]=(5,0)
+tset[485]=(5,0)
+tset[487]=(6,0)
+tset[489]=(6,0)
+tset[490]=(5,0)
+tset[491]=(5,0)
+tset[492]=(6,0)
+tset[495]=(6,0)
+tset[496]=(5,0)
+tset[499]=(5,0)
+tset[501]=(6,0)
+tset[503]=(6,0)
+tset[504]=(5,0)
+tset[505]=(5,0)
+tset[506]=(6,0)
+tset[509]=(6,0)
+tset[510]=(5,0)
+tset[513]=(5,0)
+tset[515]=(6,0)
+tset[517]=(6,0)
+tset[518]=(5,0)
+tset[519]=(5,0)
+tset[520]=(6,0)
+tset[523]=(6,0)
+tset[524]=(5,0)
+tset[527]=(5,0)
+tset[529]=(6,0)
+tset[531]=(6,0)
+tset[532]=(5,0)
+tset[533]=(5,0)
+tset[534]=(6,0)
+tset[536]=(5,0)
+tset[537]=(6,0)
+tset[540]=(6,0)
+tset[541]=(5,0)
+tset[542]=(5,0)
+tset[543]=(6,0)
+tset[546]=(6,0)
+tset[547]=(5,0)
+tset[548]=(5,0)
+tset[549]=(6,0)
+tset[551]=(5,0)
+tset[552]=(6,0)
+tset[558]=(6,0)
+tset[559]=(5,0)
+tset[560]=(5,0)
+tset[561]=(6,0)
+tset[564]=(6,0)
+tset[565]=(5,0)
+tset[566]=(5,0)
+tset[567]=(6,0)
+tset[569]=(5,0)
+tset[570]=(6,0)
+}
+.section[arc]{
+/arc[In,Out]
+arc[3,576,yi]
+arc[1,576,xi]
+arc[2,576,si]
+arc[953,2]
+arc[4,576,ti]
+arc[6,578]
+arc[578,7]
+arc[9,579,yi]
+arc[7,579,xi]
+arc[8,579,si]
+arc[5,577]
+arc[577,6]
+arc[10,579,ti]
+arc[11,581]
+arc[581,12]
+arc[12,580]
+arc[580,10]
+arc[576,11,to]
+arc[576,5,xo]
+arc[576,8,so]
+arc[583,15]
+arc[14,583]
+arc[582,14]
+arc[13,582]
+arc[18,584]
+arc[584,17]
+arc[17,585]
+arc[585,16]
+arc[15,576,ci]
+arc[576,13,co]
+arc[16,576,yli]
+arc[576,18,ylo]
+arc[587,21]
+arc[20,587]
+arc[586,20]
+arc[19,586]
+arc[24,588]
+arc[588,23]
+arc[23,589]
+arc[589,22]
+arc[21,579,ci]
+arc[579,19,co]
+arc[579,24,ylo]
+arc[22,579,yli]
+arc[576,9,yo]:(-740,140)
+arc[26,591]
+arc[591,27]
+arc[29,592,yi]
+arc[27,592,xi]
+arc[28,592,si]
+arc[25,590]
+arc[590,26]
+arc[30,592,ti]
+arc[31,594]
+arc[594,32]
+arc[32,593]
+arc[593,30]
+arc[596,35]
+arc[34,596]
+arc[595,34]
+arc[33,595]
+arc[38,597]
+arc[597,37]
+arc[37,598]
+arc[598,36]
+arc[35,592,ci]
+arc[592,33,co]
+arc[592,38,ylo]
+arc[36,592,yli]
+arc[40,600]
+arc[600,41]
+arc[43,601,yi]
+arc[41,601,xi]
+arc[42,601,si]
+arc[39,599]
+arc[599,40]
+arc[44,601,ti]
+arc[45,603]
+arc[603,46]
+arc[46,602]
+arc[602,44]
+arc[605,49]
+arc[48,605]
+arc[604,48]
+arc[47,604]
+arc[52,606]
+arc[606,51]
+arc[51,607]
+arc[607,50]
+arc[49,601,ci]
+arc[601,47,co]
+arc[601,52,ylo]
+arc[50,601,yli]
+arc[592,42,so]
+arc[592,45,to]
+arc[592,39,xo]
+arc[592,43,yo]:(-100,140)
+arc[54,609]
+arc[609,55]
+arc[57,610,yi]
+arc[55,610,xi]
+arc[56,610,si]
+arc[53,608]
+arc[608,54]
+arc[58,610,ti]
+arc[59,612]
+arc[612,60]
+arc[60,611]
+arc[611,58]
+arc[614,63]
+arc[62,614]
+arc[613,62]
+arc[61,613]
+arc[66,615]
+arc[615,65]
+arc[65,616]
+arc[616,64]
+arc[63,610,ci]
+arc[610,61,co]
+arc[610,66,ylo]
+arc[64,610,yli]
+arc[68,618]
+arc[618,69]
+arc[71,619,yi]
+arc[69,619,xi]
+arc[70,619,si]
+arc[67,617]
+arc[617,68]
+arc[72,619,ti]
+arc[73,621]
+arc[621,74]
+arc[74,620]
+arc[620,72]
+arc[623,77]
+arc[76,623]
+arc[622,76]
+arc[75,622]
+arc[80,624]
+arc[624,79]
+arc[79,625]
+arc[625,78]
+arc[77,619,ci]
+arc[619,75,co]
+arc[619,80,ylo]
+arc[78,619,yli]
+arc[610,70,so]
+arc[610,73,to]
+arc[610,67,xo]
+arc[610,71,yo]:(540,140)
+arc[601,56,so]
+arc[601,59,to]
+arc[601,53,xo]
+arc[601,57,yo]:(220,140)
+arc[82,627]
+arc[627,83]
+arc[85,628,yi]
+arc[83,628,xi]
+arc[84,628,si]
+arc[81,626]
+arc[626,82]
+arc[86,628,ti]
+arc[87,630]
+arc[630,88]
+arc[88,629]
+arc[629,86]
+arc[632,91]
+arc[90,632]
+arc[631,90]
+arc[89,631]
+arc[94,633]
+arc[633,93]
+arc[93,634]
+arc[634,92]
+arc[91,628,ci]
+arc[628,89,co]
+arc[628,94,ylo]
+arc[92,628,yli]
+arc[619,84,so]
+arc[619,87,to]
+arc[619,81,xo]
+arc[619,85,yo]:(860,140)
+arc[579,28,so]
+arc[579,31,to]
+arc[579,25,xo]
+arc[579,29,yo]:(-420,140)
+arc[637,97]
+arc[96,637]
+arc[636,96]
+arc[95,636]
+arc[100,638]
+arc[638,99]
+arc[99,639]
+arc[639,98]
+arc[641,103]
+arc[102,641]
+arc[640,102]
+arc[101,640]
+arc[106,642]
+arc[642,105]
+arc[105,643]
+arc[643,104]
+arc[97,635,ci0]
+arc[98,635,ci1]
+arc[103,635,ci2]
+arc[104,635,ci3]
+arc[635,95,co0]
+arc[635,100,co1]
+arc[635,101,co2]
+arc[635,106,co3]
+arc[635,107,select1]
+arc[107,644,i1]
+arc[111,645,select]
+arc[111,646,select]
+arc[108,645,i1]
+arc[109,646,i1]
+arc[646,110,o1]
+arc[645,110,o1]
+arc[115,647,select]
+arc[115,648,select]
+arc[112,647,i1]
+arc[113,648,i1]
+arc[648,114,o1]
+arc[647,114,o1]
+arc[644,115,o1]:(-1180,-60)
+arc[644,111,o2]:(-1180,60)
+arc[114,649]
+arc[110,650]
+arc[649,3,o1]:(-940,-60):(-940,140)
+arc[650,1,o1]:(-980,60):(-980,180)
+arc[954,113]
+arc[955,109]
+arc[117,652]
+arc[652,118]
+arc[120,653,yi]
+arc[118,653,xi]
+arc[119,653,si]
+arc[116,651]
+arc[651,117]
+arc[121,653,ti]
+arc[122,655]
+arc[655,123]
+arc[123,654]
+arc[654,121]
+arc[653,127,to]
+arc[653,124,xo]
+arc[653,125,so]
+arc[127,961]
+arc[126,962]
+arc[124,963]
+arc[657,130]
+arc[129,657]
+arc[656,129]
+arc[128,656]
+arc[133,658]
+arc[658,132]
+arc[132,659]
+arc[659,131]
+arc[130,653,ci]
+arc[653,128,co]
+arc[131,653,yli]
+arc[653,133,ylo]
+arc[653,126,yo]:(4060,140)
+arc[135,661]
+arc[661,136]
+arc[138,662,yi]
+arc[136,662,xi]
+arc[137,662,si]
+arc[134,660]
+arc[660,135]
+arc[139,662,ti]
+arc[140,664]
+arc[664,141]
+arc[141,663]
+arc[663,139]
+arc[666,144]
+arc[143,666]
+arc[665,143]
+arc[142,665]
+arc[147,667]
+arc[667,146]
+arc[146,668]
+arc[668,145]
+arc[144,662,ci]
+arc[662,142,co]
+arc[662,147,ylo]
+arc[145,662,yli]
+arc[149,670]
+arc[670,150]
+arc[152,671,yi]
+arc[150,671,xi]
+arc[151,671,si]
+arc[148,669]
+arc[669,149]
+arc[153,671,ti]
+arc[154,673]
+arc[673,155]
+arc[155,672]
+arc[672,153]
+arc[675,158]
+arc[157,675]
+arc[674,157]
+arc[156,674]
+arc[161,676]
+arc[676,160]
+arc[160,677]
+arc[677,159]
+arc[158,671,ci]
+arc[671,156,co]
+arc[671,161,ylo]
+arc[159,671,yli]
+arc[662,151,so]
+arc[662,154,to]
+arc[662,148,xo]
+arc[662,152,yo]:(1500,140)
+arc[163,679]
+arc[679,164]
+arc[166,680,yi]
+arc[164,680,xi]
+arc[165,680,si]
+arc[162,678]
+arc[678,163]
+arc[167,680,ti]
+arc[168,682]
+arc[682,169]
+arc[169,681]
+arc[681,167]
+arc[684,172]
+arc[171,684]
+arc[683,171]
+arc[170,683]
+arc[175,685]
+arc[685,174]
+arc[174,686]
+arc[686,173]
+arc[172,680,ci]
+arc[680,170,co]
+arc[680,175,ylo]
+arc[173,680,yli]
+arc[177,688]
+arc[688,178]
+arc[180,689,yi]
+arc[178,689,xi]
+arc[179,689,si]
+arc[176,687]
+arc[687,177]
+arc[181,689,ti]
+arc[182,691]
+arc[691,183]
+arc[183,690]
+arc[690,181]
+arc[693,186]
+arc[185,693]
+arc[692,185]
+arc[184,692]
+arc[189,694]
+arc[694,188]
+arc[188,695]
+arc[695,187]
+arc[186,689,ci]
+arc[689,184,co]
+arc[689,189,ylo]
+arc[187,689,yli]
+arc[680,179,so]
+arc[680,182,to]
+arc[680,176,xo]
+arc[680,180,yo]:(2140,140)
+arc[671,165,so]
+arc[671,168,to]
+arc[671,162,xo]
+arc[671,166,yo]:(1820,140)
+arc[191,697]
+arc[697,192]
+arc[194,698,yi]
+arc[192,698,xi]
+arc[193,698,si]
+arc[190,696]
+arc[696,191]
+arc[195,698,ti]
+arc[196,700]
+arc[700,197]
+arc[197,699]
+arc[699,195]
+arc[702,200]
+arc[199,702]
+arc[701,199]
+arc[198,701]
+arc[203,703]
+arc[703,202]
+arc[202,704]
+arc[704,201]
+arc[200,698,ci]
+arc[698,198,co]
+arc[698,203,ylo]
+arc[201,698,yli]
+arc[689,193,so]
+arc[689,196,to]
+arc[689,190,xo]
+arc[689,194,yo]:(2460,140)
+arc[205,706]
+arc[706,206]
+arc[208,707,yi]
+arc[206,707,xi]
+arc[207,707,si]
+arc[204,705]
+arc[705,205]
+arc[209,707,ti]
+arc[210,709]
+arc[709,211]
+arc[211,708]
+arc[708,209]
+arc[711,214]
+arc[213,711]
+arc[710,213]
+arc[212,710]
+arc[217,712]
+arc[712,216]
+arc[216,713]
+arc[713,215]
+arc[214,707,ci]
+arc[707,212,co]
+arc[707,217,ylo]
+arc[215,707,yli]
+arc[219,715]
+arc[715,220]
+arc[222,716,yi]
+arc[220,716,xi]
+arc[221,716,si]
+arc[218,714]
+arc[714,219]
+arc[223,716,ti]
+arc[224,718]
+arc[718,225]
+arc[225,717]
+arc[717,223]
+arc[720,228]
+arc[227,720]
+arc[719,227]
+arc[226,719]
+arc[231,721]
+arc[721,230]
+arc[230,722]
+arc[722,229]
+arc[228,716,ci]
+arc[716,226,co]
+arc[716,231,ylo]
+arc[229,716,yli]
+arc[707,221,so]
+arc[707,224,to]
+arc[707,218,xo]
+arc[707,222,yo]:(3100,140)
+arc[233,724]
+arc[724,234]
+arc[236,725,yi]
+arc[234,725,xi]
+arc[235,725,si]
+arc[232,723]
+arc[723,233]
+arc[237,725,ti]
+arc[238,727]
+arc[727,239]
+arc[239,726]
+arc[726,237]
+arc[729,242]
+arc[241,729]
+arc[728,241]
+arc[240,728]
+arc[245,730]
+arc[730,244]
+arc[244,731]
+arc[731,243]
+arc[242,725,ci]
+arc[725,240,co]
+arc[725,245,ylo]
+arc[243,725,yli]
+arc[716,235,so]
+arc[716,238,to]
+arc[716,232,xo]
+arc[716,236,yo]:(3420,140)
+arc[698,207,so]
+arc[698,210,to]
+arc[698,204,xo]
+arc[698,208,yo]:(2780,140)
+arc[628,137,so]
+arc[628,140,to]
+arc[628,134,xo]
+arc[628,138,yo]:(1180,140)
+arc[725,119,so]
+arc[725,122,to]
+arc[725,116,xo]
+arc[725,120,yo]:(3740,140)
+arc[248,732]
+arc[732,247]
+arc[247,733]
+arc[733,246]
+arc[246,635,ci4]
+arc[635,248,co4]
+arc[635,4,clr]:(-1060,260):(-1060,100)
+arc[736,251]
+arc[250,736]
+arc[735,250]
+arc[249,735]
+arc[254,737]
+arc[737,253]
+arc[253,738]
+arc[738,252]
+arc[740,257]
+arc[256,740]
+arc[739,256]
+arc[255,739]
+arc[260,741]
+arc[741,259]
+arc[259,742]
+arc[742,258]
+arc[251,734,ci0]
+arc[252,734,ci1]
+arc[257,734,ci2]
+arc[258,734,ci3]
+arc[734,249,co0]
+arc[734,254,co1]
+arc[734,255,co2]
+arc[734,260,co3]
+arc[263,743]
+arc[743,262]
+arc[262,744]
+arc[744,261]
+arc[261,734,ci4]
+arc[734,263,co4]
+arc[125,745,i1]
+arc[264,745,select]
+arc[125,746,i1]
+arc[264,746,select]
+arc[745,265,o1]
+arc[746,266,o1]
+arc[734,264,select1]:(4180,260)
+arc[266,964]
+arc[749,269]
+arc[268,749]
+arc[748,268]
+arc[267,748]
+arc[272,750]
+arc[750,271]
+arc[271,751]
+arc[751,270]
+arc[753,275]
+arc[274,753]
+arc[752,274]
+arc[273,752]
+arc[278,754]
+arc[754,277]
+arc[277,755]
+arc[755,276]
+arc[269,747,ci0]
+arc[270,747,ci1]
+arc[275,747,ci2]
+arc[276,747,ci3]
+arc[747,267,co0]
+arc[747,272,co1]
+arc[747,273,co2]
+arc[747,278,co3]
+arc[747,279,select1]
+arc[279,756,i1]
+arc[282,757]
+arc[757,281]
+arc[281,758]
+arc[758,280]
+arc[280,747,ci4]
+arc[747,282,co4]
+arc[283,759,i1]
+arc[284,759,select]
+arc[283,760,i1]
+arc[284,760,select]
+arc[759,285,o1]
+arc[760,286,o1]
+arc[956,283]
+arc[287,761,i1]
+arc[288,761,select]
+arc[287,762,i1]
+arc[288,762,select]
+arc[761,289,o1]
+arc[762,290,o1]
+arc[957,287]
+arc[756,284,o1]:(-1860,900)
+arc[756,288,o2]:(-1860,1020)
+arc[763,112]
+arc[764,108]
+arc[285,763]:(-1420,860):(-1420,-100)
+arc[289,764]:(-1380,980):(-1380,20)
+arc[293,765,yi]
+arc[291,765,xi]
+arc[292,765,si]
+arc[958,292]
+arc[294,765,ti]
+arc[296,767]
+arc[767,297]
+arc[299,768,yi]
+arc[297,768,xi]
+arc[298,768,si]
+arc[295,766]
+arc[766,296]
+arc[300,768,ti]
+arc[301,770]
+arc[770,302]
+arc[302,769]
+arc[769,300]
+arc[765,301,to]
+arc[765,295,xo]
+arc[765,298,so]
+arc[772,305]
+arc[304,772]
+arc[771,304]
+arc[303,771]
+arc[308,773]
+arc[773,307]
+arc[307,774]
+arc[774,306]
+arc[305,765,ci]
+arc[765,303,co]
+arc[306,765,yli]
+arc[765,308,ylo]
+arc[776,311]
+arc[310,776]
+arc[775,310]
+arc[309,775]
+arc[314,777]
+arc[777,313]
+arc[313,778]
+arc[778,312]
+arc[311,768,ci]
+arc[768,309,co]
+arc[768,314,ylo]
+arc[312,768,yli]
+arc[765,299,yo]:(-740,1420)
+arc[316,780]
+arc[780,317]
+arc[319,781,yi]
+arc[317,781,xi]
+arc[318,781,si]
+arc[315,779]
+arc[779,316]
+arc[320,781,ti]
+arc[321,783]
+arc[783,322]
+arc[322,782]
+arc[782,320]
+arc[785,325]
+arc[324,785]
+arc[784,324]
+arc[323,784]
+arc[328,786]
+arc[786,327]
+arc[327,787]
+arc[787,326]
+arc[325,781,ci]
+arc[781,323,co]
+arc[781,328,ylo]
+arc[326,781,yli]
+arc[330,789]
+arc[789,331]
+arc[333,790,yi]
+arc[331,790,xi]
+arc[332,790,si]
+arc[329,788]
+arc[788,330]
+arc[334,790,ti]
+arc[335,792]
+arc[792,336]
+arc[336,791]
+arc[791,334]
+arc[794,339]
+arc[338,794]
+arc[793,338]
+arc[337,793]
+arc[342,795]
+arc[795,341]
+arc[341,796]
+arc[796,340]
+arc[339,790,ci]
+arc[790,337,co]
+arc[790,342,ylo]
+arc[340,790,yli]
+arc[781,332,so]
+arc[781,335,to]
+arc[781,329,xo]
+arc[781,333,yo]:(-100,1420)
+arc[344,798]
+arc[798,345]
+arc[347,799,yi]
+arc[345,799,xi]
+arc[346,799,si]
+arc[343,797]
+arc[797,344]
+arc[348,799,ti]
+arc[349,801]
+arc[801,350]
+arc[350,800]
+arc[800,348]
+arc[803,353]
+arc[352,803]
+arc[802,352]
+arc[351,802]
+arc[356,804]
+arc[804,355]
+arc[355,805]
+arc[805,354]
+arc[353,799,ci]
+arc[799,351,co]
+arc[799,356,ylo]
+arc[354,799,yli]
+arc[358,807]
+arc[807,359]
+arc[361,808,yi]
+arc[359,808,xi]
+arc[360,808,si]
+arc[357,806]
+arc[806,358]
+arc[362,808,ti]
+arc[363,810]
+arc[810,364]
+arc[364,809]
+arc[809,362]
+arc[812,367]
+arc[366,812]
+arc[811,366]
+arc[365,811]
+arc[370,813]
+arc[813,369]
+arc[369,814]
+arc[814,368]
+arc[367,808,ci]
+arc[808,365,co]
+arc[808,370,ylo]
+arc[368,808,yli]
+arc[799,360,so]
+arc[799,363,to]
+arc[799,357,xo]
+arc[799,361,yo]:(540,1420)
+arc[790,346,so]
+arc[790,349,to]
+arc[790,343,xo]
+arc[790,347,yo]:(220,1420)
+arc[372,816]
+arc[816,373]
+arc[375,817,yi]
+arc[373,817,xi]
+arc[374,817,si]
+arc[371,815]
+arc[815,372]
+arc[376,817,ti]
+arc[377,819]
+arc[819,378]
+arc[378,818]
+arc[818,376]
+arc[821,381]
+arc[380,821]
+arc[820,380]
+arc[379,820]
+arc[384,822]
+arc[822,383]
+arc[383,823]
+arc[823,382]
+arc[381,817,ci]
+arc[817,379,co]
+arc[817,384,ylo]
+arc[382,817,yli]
+arc[808,374,so]
+arc[808,377,to]
+arc[808,371,xo]
+arc[808,375,yo]:(860,1420)
+arc[768,318,so]
+arc[768,321,to]
+arc[768,315,xo]
+arc[768,319,yo]:(-420,1420)
+arc[826,387]
+arc[386,826]
+arc[825,386]
+arc[385,825]
+arc[390,827]
+arc[827,389]
+arc[389,828]
+arc[828,388]
+arc[830,393]
+arc[392,830]
+arc[829,392]
+arc[391,829]
+arc[396,831]
+arc[831,395]
+arc[395,832]
+arc[832,394]
+arc[387,824,ci0]
+arc[388,824,ci1]
+arc[393,824,ci2]
+arc[394,824,ci3]
+arc[824,385,co0]
+arc[824,390,co1]
+arc[824,391,co2]
+arc[824,396,co3]
+arc[824,397,select1]
+arc[397,833,i1]
+arc[401,834,select]
+arc[401,835,select]
+arc[398,834,i1]
+arc[399,835,i1]
+arc[835,400,o1]
+arc[834,400,o1]
+arc[405,836,select]
+arc[405,837,select]
+arc[402,836,i1]
+arc[403,837,i1]
+arc[837,404,o1]
+arc[836,404,o1]
+arc[833,405,o1]:(-1180,1220)
+arc[833,401,o2]:(-1180,1340)
+arc[404,838]
+arc[400,839]
+arc[838,293,o1]:(-940,1220):(-940,1420)
+arc[839,291,o1]:(-980,1340):(-980,1460)
+arc[959,403]
+arc[960,399]
+arc[407,841]
+arc[841,408]
+arc[410,842,yi]
+arc[408,842,xi]
+arc[409,842,si]
+arc[406,840]
+arc[840,407]
+arc[411,842,ti]
+arc[412,844]
+arc[844,413]
+arc[413,843]
+arc[843,411]
+arc[842,417,to]
+arc[842,414,xo]
+arc[842,415,so]
+arc[417,965]
+arc[416,966]
+arc[414,967]
+arc[846,420]
+arc[419,846]
+arc[845,419]
+arc[418,845]
+arc[423,847]
+arc[847,422]
+arc[422,848]
+arc[848,421]
+arc[420,842,ci]
+arc[842,418,co]
+arc[421,842,yli]
+arc[842,423,ylo]
+arc[842,416,yo]:(4060,1420)
+arc[425,850]
+arc[850,426]
+arc[428,851,yi]
+arc[426,851,xi]
+arc[427,851,si]
+arc[424,849]
+arc[849,425]
+arc[429,851,ti]
+arc[430,853]
+arc[853,431]
+arc[431,852]
+arc[852,429]
+arc[855,434]
+arc[433,855]
+arc[854,433]
+arc[432,854]
+arc[437,856]
+arc[856,436]
+arc[436,857]
+arc[857,435]
+arc[434,851,ci]
+arc[851,432,co]
+arc[851,437,ylo]
+arc[435,851,yli]
+arc[439,859]
+arc[859,440]
+arc[442,860,yi]
+arc[440,860,xi]
+arc[441,860,si]
+arc[438,858]
+arc[858,439]
+arc[443,860,ti]
+arc[444,862]
+arc[862,445]
+arc[445,861]
+arc[861,443]
+arc[864,448]
+arc[447,864]
+arc[863,447]
+arc[446,863]
+arc[451,865]
+arc[865,450]
+arc[450,866]
+arc[866,449]
+arc[448,860,ci]
+arc[860,446,co]
+arc[860,451,ylo]
+arc[449,860,yli]
+arc[851,441,so]
+arc[851,444,to]
+arc[851,438,xo]
+arc[851,442,yo]:(1500,1420)
+arc[453,868]
+arc[868,454]
+arc[456,869,yi]
+arc[454,869,xi]
+arc[455,869,si]
+arc[452,867]
+arc[867,453]
+arc[457,869,ti]
+arc[458,871]
+arc[871,459]
+arc[459,870]
+arc[870,457]
+arc[873,462]
+arc[461,873]
+arc[872,461]
+arc[460,872]
+arc[465,874]
+arc[874,464]
+arc[464,875]
+arc[875,463]
+arc[462,869,ci]
+arc[869,460,co]
+arc[869,465,ylo]
+arc[463,869,yli]
+arc[467,877]
+arc[877,468]
+arc[470,878,yi]
+arc[468,878,xi]
+arc[469,878,si]
+arc[466,876]
+arc[876,467]
+arc[471,878,ti]
+arc[472,880]
+arc[880,473]
+arc[473,879]
+arc[879,471]
+arc[882,476]
+arc[475,882]
+arc[881,475]
+arc[474,881]
+arc[479,883]
+arc[883,478]
+arc[478,884]
+arc[884,477]
+arc[476,878,ci]
+arc[878,474,co]
+arc[878,479,ylo]
+arc[477,878,yli]
+arc[869,469,so]
+arc[869,472,to]
+arc[869,466,xo]
+arc[869,470,yo]:(2140,1420)
+arc[860,455,so]
+arc[860,458,to]
+arc[860,452,xo]
+arc[860,456,yo]:(1820,1420)
+arc[481,886]
+arc[886,482]
+arc[484,887,yi]
+arc[482,887,xi]
+arc[483,887,si]
+arc[480,885]
+arc[885,481]
+arc[485,887,ti]
+arc[486,889]
+arc[889,487]
+arc[487,888]
+arc[888,485]
+arc[891,490]
+arc[489,891]
+arc[890,489]
+arc[488,890]
+arc[493,892]
+arc[892,492]
+arc[492,893]
+arc[893,491]
+arc[490,887,ci]
+arc[887,488,co]
+arc[887,493,ylo]
+arc[491,887,yli]
+arc[878,483,so]
+arc[878,486,to]
+arc[878,480,xo]
+arc[878,484,yo]:(2460,1420)
+arc[495,895]
+arc[895,496]
+arc[498,896,yi]
+arc[496,896,xi]
+arc[497,896,si]
+arc[494,894]
+arc[894,495]
+arc[499,896,ti]
+arc[500,898]
+arc[898,501]
+arc[501,897]
+arc[897,499]
+arc[900,504]
+arc[503,900]
+arc[899,503]
+arc[502,899]
+arc[507,901]
+arc[901,506]
+arc[506,902]
+arc[902,505]
+arc[504,896,ci]
+arc[896,502,co]
+arc[896,507,ylo]
+arc[505,896,yli]
+arc[509,904]
+arc[904,510]
+arc[512,905,yi]
+arc[510,905,xi]
+arc[511,905,si]
+arc[508,903]
+arc[903,509]
+arc[513,905,ti]
+arc[514,907]
+arc[907,515]
+arc[515,906]
+arc[906,513]
+arc[909,518]
+arc[517,909]
+arc[908,517]
+arc[516,908]
+arc[521,910]
+arc[910,520]
+arc[520,911]
+arc[911,519]
+arc[518,905,ci]
+arc[905,516,co]
+arc[905,521,ylo]
+arc[519,905,yli]
+arc[896,511,so]
+arc[896,514,to]
+arc[896,508,xo]
+arc[896,512,yo]:(3100,1420)
+arc[523,913]
+arc[913,524]
+arc[526,914,yi]
+arc[524,914,xi]
+arc[525,914,si]
+arc[522,912]
+arc[912,523]
+arc[527,914,ti]
+arc[528,916]
+arc[916,529]
+arc[529,915]
+arc[915,527]
+arc[918,532]
+arc[531,918]
+arc[917,531]
+arc[530,917]
+arc[535,919]
+arc[919,534]
+arc[534,920]
+arc[920,533]
+arc[532,914,ci]
+arc[914,530,co]
+arc[914,535,ylo]
+arc[533,914,yli]
+arc[905,525,so]
+arc[905,528,to]
+arc[905,522,xo]
+arc[905,526,yo]:(3420,1420)
+arc[887,497,so]
+arc[887,500,to]
+arc[887,494,xo]
+arc[887,498,yo]:(2780,1420)
+arc[817,427,so]
+arc[817,430,to]
+arc[817,424,xo]
+arc[817,428,yo]:(1180,1420)
+arc[914,409,so]
+arc[914,412,to]
+arc[914,406,xo]
+arc[914,410,yo]:(3740,1420)
+arc[538,921]
+arc[921,537]
+arc[537,922]
+arc[922,536]
+arc[536,824,ci4]
+arc[824,538,co4]
+arc[824,294,clr]:(-1060,1540):(-1060,1380)
+arc[925,541]
+arc[540,925]
+arc[924,540]
+arc[539,924]
+arc[544,926]
+arc[926,543]
+arc[543,927]
+arc[927,542]
+arc[929,547]
+arc[546,929]
+arc[928,546]
+arc[545,928]
+arc[550,930]
+arc[930,549]
+arc[549,931]
+arc[931,548]
+arc[541,923,ci0]
+arc[542,923,ci1]
+arc[547,923,ci2]
+arc[548,923,ci3]
+arc[923,539,co0]
+arc[923,544,co1]
+arc[923,545,co2]
+arc[923,550,co3]
+arc[553,932]
+arc[932,552]
+arc[552,933]
+arc[933,551]
+arc[551,923,ci4]
+arc[923,553,co4]
+arc[415,934,i1]
+arc[554,934,select]
+arc[415,935,i1]
+arc[554,935,select]
+arc[934,555,o1]
+arc[935,556,o1]
+arc[923,554,select1]:(4180,1540)
+arc[556,968]
+arc[936,402]
+arc[937,398]
+arc[286,936]:(-1420,900):(-1420,1180)
+arc[290,937]:(-1460,1020):(-1460,1300)
+arc[940,559]
+arc[558,940]
+arc[939,558]
+arc[557,939]
+arc[562,941]
+arc[941,561]
+arc[561,942]
+arc[942,560]
+arc[944,565]
+arc[564,944]
+arc[943,564]
+arc[563,943]
+arc[568,945]
+arc[945,567]
+arc[567,946]
+arc[946,566]
+arc[559,938,ci0]
+arc[560,938,ci1]
+arc[565,938,ci2]
+arc[566,938,ci3]
+arc[938,557,co0]
+arc[938,562,co1]
+arc[938,563,co2]
+arc[938,568,co3]
+arc[571,947]
+arc[947,570]
+arc[570,948]
+arc[948,569]
+arc[569,938,ci4]
+arc[938,571,co4]
+arc[572,949,i1]
+arc[574,950,i1]
+arc[573,949,select]
+arc[573,950,select]
+arc[949,575,o1]
+arc[950,575,o1]
+arc[575,969]
+arc[938,573,select1]:(5020,580)
+arc[265,952]
+arc[555,951]
+arc[952,572]:(4820,220):(4820,540)
+arc[951,574]:(4820,1500):(4820,620)
+}
+.section[simTranOpt]{
+}
+.section[text]{
+}
+=== END ===

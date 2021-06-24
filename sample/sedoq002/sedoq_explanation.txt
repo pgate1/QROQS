@@ -1,0 +1,43 @@
+sedoq002(2005/2/24)  higuchi
+
+<sedoq002>
+
+1.TO EDIT
+
+入力の組み合わせと編集機能です
+
+------------------------------------
+操作/入力  <insordel>  <load>  <print>
+ 
+　insert　　　　　１ 　　 　　　0　　　   0
+  load               1             1          0
+  delete            0             0          0
+  print              0             0           1
+------------------------------------
+
+insert...一行挿入
+delete...一行削除
+load...読み込み（一行めから断続的に読み込む）
+print...全出力
+
+
+2. MODULES
+
+slim_insert_delete...エディットエンジンです
+adrs_dec...アドレスを読んで相応のトークン数に変換
+adrs_router...アドレス解決
+is_ret, is_eof...改行やＥＯＦ検出
+dat_router...テキストデータを運ぶ
+edit_router...制御
+line_element...一行分のデータを管理するメモリブロック
+
+
+アドレス指定は5ビット
+一行は4文字（改行コード含む）
+全体で4行分の領域しかありません
+
+また不具合として一行に4文字入れるとカウンタが0になってしまいます．
+
+
+
+Stream EDitor Of  QROQS

@@ -1,0 +1,25 @@
+//
+//	model    : muller_c
+//	function : muller_c_r, muller_c_s
+//	created  : 1:40 2003/08/16
+//
+
+module muller_c_r(a, b, q, reset);
+input  a, b, reset;
+output q;
+	wire ai,yi;
+	AO222 ao(.A(yi),.B(b),.C(b),.D(ai),.E(ai),.F(yi),.Y(q));
+	NOR22 noy(.A(q), .B(reset), .Y(yi));
+	NOR22 nob(.A(a), .B(reset), .Y(ai));
+endmodule
+
+
+module muller_c_s(a, b, q, reset);
+input  a, b, reset;
+output q;
+	wire ai,yi;
+	AO222 ao(.A(yi),.B(b),.C(b),.D(ai),.E(ai),.F(yi),.Y(q));
+	NAND21 orb(.A(reset),.B(a),.Y(ai));
+	NAND21 orq(.A(reset),.B(q),.Y(yi));
+endmodule
+
