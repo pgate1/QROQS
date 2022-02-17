@@ -6,4 +6,4 @@ Asynchronous Bit-Serial Petri Net (BSP-Net) edit and simulator.
 Support web site.  
 <a target="_blank" href="https://pgate1.at-ninja.jp/QROQS/QROQS.html">https://pgate1.at-ninja.jp/QROQS/QROQS.html</a>
 
-<a href="http://pgate1.s602.xrea.com/QROQS/poster.pdf">Promotion poster (PDF).</a>  
+<a href="https://ss1.xrea.com/pgate1.s602.xrea.com/QROQS/poster.pdf">Promotion poster (PDF).</a>  
