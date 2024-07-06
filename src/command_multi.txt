@@ -1,8 +1,9 @@
-//　　QROQSデモンストレーション用コマンドファイル　4bitMulti
+// QROQSデモンストレーション用コマンドファイル　4bitMulti
 offset(2,2)
+
 //place
-key_input(50)
 trace(ぷれーすをおけ！)
+key_input(50)
 move_click(10,5)
 move_click(10,1)
 //tran
@@ -50,9 +51,9 @@ key_input(08,6)
 
 put_string("//乗算module\r\na_out=a_in;\r\nsum=(a_in&b_in) ^ old_sum ^ c_in;\r\ncarry=(a_in&b_in)&old_sum | old_sum&c_in | (a_in&b_in)&c_in;\r\n")
 sleep(2000)
-move_click(11,1,0,-80)
-key_input(41)
+move_click(11,1,60,-80) OK
 trace(アークで入力変数に接続、これがポイント)
+key_input(41)
 move_click(10,1)
 move_rclick(12,5)
 menu_click(1)
@@ -117,13 +118,11 @@ move_rclick(4,5)
 menu_click(2)
 move_click(10,5)
 
-//縮小
-zoom_down
+zoom_down 縮小
 select(8)
 track(3,2,12,7)
 
-//拡大
-zoom_up
+zoom_up 拡大
 move_rclick(4,5)
 menu_click(0)
 
@@ -148,8 +147,7 @@ move_rclick(4,5)
 menu_click(2)
 move_click(10,5)
 
-//縮小
-zoom_down
+zoom_down 縮小
 
 //ウージに移動
 //mtrack(4,5,12,5)
@@ -157,20 +155,18 @@ key_input(25,4)
 key_input(25,4)
 key_input(25,4)
 key_input(25,4)
-//拡大
-zoom_up
+zoom_up 拡大
 //ウージ
 trace(入力データを設定すること)
 move_dblclk(3,3)
 
-move_click(1,1,-100,-70)
-move_click(3,0,-40,10)
-move_click(1,1)
+move_click(1,1,-110,-70) ビット列を流す
+move_click(3,0,-40,20) 右に流す
+move_click(1,1,0,40)
 
 put_string("0000101\r\n")
 sleep(2000)
-//OK
-move_click(2,4)
+move_click(2,4) OK
 
 //ウージ上
 move_dblclk(8,1)
@@ -179,10 +175,8 @@ key_input(08)
 key_input(31)
 
 sleep(1000)
-//OK
-move_click(2,4)
-//縮小
-zoom_down
+move_click(2,4) OK
+zoom_down 縮小
 
 //ウージに移動
 //mtrack(12,5,4,5)
@@ -192,8 +186,7 @@ key_input(27,4)
 key_input(27,4)
 key_input(27,4)
 
-//拡大
-zoom_up
+zoom_up 拡大
 
 //ウージ上
 move_dblclk(8,1)
@@ -201,8 +194,7 @@ move_click(3,0,-100,-60)
 key_input(08)
 key_input(31)
 sleep(1000)
-//OK
-move_click(2,4)
+move_click(2,4) OK
 
 //ウージに移動
 //mtrack(12,5,4,5)
@@ -218,8 +210,7 @@ move_click(3,0,-100,-60)
 key_input(08)
 key_input(31)
 sleep(1000)
-//OK
-move_click(2,4)
+move_click(2,4) OK
 
 //移動
 //mtrack(12,5,4,5)

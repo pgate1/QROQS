@@ -162,27 +162,46 @@ void CQROQSView::OnComDemo()
 	#define speed 300
 
 	struct innerfunc{
+		/*
+		// Œø‰Ê‚È‚¢
+		static void flushMessageQueue()
+		{
+			MSG msg;
+			while(PeekMessage(&msg, NULL, 0, 0, PM_REMOVE)){
+				TranslateMessage(&msg);
+				DispatchMessage(&msg);
+			}
+		}
+		*/
 		static void key_put(int nCode)
 		{
 			keybd_event(nCode, 0, 0, 0);
+			Sleep(1);
 			keybd_event(nCode, 0, KEYEVENTF_KEYUP, 0);
+			Sleep(1);
 		}
 		static void mouse_click()
 		{
 			mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0 ,0);
+			Sleep(10);
 			mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0 ,0);
+			Sleep(10);
 		}
 		static void mmouse_click(CRect mrect,int vm)
 		{
-			MoveMouse(mrect.left+10+vm*24,mrect.top+10,10*speed);
+		//	MoveMouse(mrect.left+10+vm*24, mrect.top+10, 10*speed);
+			MoveMouse(mrect.left+10+vm*25, mrect.top+10, 10*speed); // for Win10
 //			SetCursorPos(mrect.left+10+vm*24,mrect.top+10);
+			Sleep(10);
 			mouse_click();
-			return;
+			Sleep(10);
 		}
 		static void mouse_rclick()
 		{
 			mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, 0 ,0);
+			Sleep(10);
 			mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, 0 ,0);
+			Sleep(10);
 		}
 		static void vmouse_move(CRect vrect,int vx, int vy, int ax=0, int ay=0)
 		{
@@ -192,8 +211,9 @@ void CQROQSView::OnComDemo()
 		static void vmouse_click(CRect vrect,int vx, int vy)
 		{
 			vmouse_move(vrect,vx,vy);
+			Sleep(10);
 			mouse_click();
-			return;
+			Sleep(10);
 		}
 		static void vmouse_menu(CRect vrect,int mm)
 		{
@@ -203,7 +223,9 @@ void CQROQSView::OnComDemo()
 			mp.y += 18+10+20*mm;
 			MoveMouse(mp.x,mp.y,3*speed);
 //			SetCursorPos(mp.x,mp.y);
-			innerfunc::mouse_click();
+			Sleep(10);
+			mouse_click();
+			Sleep(10);
 		}
 	};
 

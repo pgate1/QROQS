@@ -242,6 +242,17 @@ void CQROQSView::OnDraw(CDC* pDC)
 	map<int,bspArc>::iterator ait,ait_end;
 
 	map<int,bspObject>::iterator oit,oit_end;
+/*
+	// オブジェクトのチェック
+	oit_end = bsp->ObjMap.end();
+	for(oit=bsp->ObjMap.begin(); oit!=oit_end; ++oit){
+		TRACE("objID %d\n", oit->first);
+		if(oit->second.type==0){
+			TRACE("objs %d\n", bsp->ObjMap.size());
+			throw "none obj";
+		}
+	}
+*/
 
 #ifndef _LIGHT
 	//TRACE("sha %d\n",shadowDiam);
@@ -447,7 +458,6 @@ void CQROQSView::OnDraw(CDC* pDC)
 	rect.SetRect( mtlp, mbrp);
 	rect.InflateRect(20*viewDiam,20*viewDiam);
 
-	obj_type=0;
 
 	// ﾄｰｸﾝを表示するか
 	int e_view_token = 0;
@@ -467,14 +477,16 @@ void CQROQSView::OnDraw(CDC* pDC)
 	oit_end = bsp->ObjMap.end();
 	for(;oit!=oit_end;++oit){
 
+		obj_id = oit->first;
 		obj = &(oit->second);
+
+		obj_type = obj->type;
+		// 無効オブジェクト回避
+	//	if(obj_type==_NONE) continue;
+
 		gp = obj->gpoint;
-		
 		//画面からはみ出したら表示しない
 		if(!rect.PtInRect(gp)) continue;
-
-		obj_id = oit->first;
-		obj_type = obj->type;
 
 		//グローバル座標からローカル座標へ変換しろ
 		mp = gp - bsp->Globalpoint;
